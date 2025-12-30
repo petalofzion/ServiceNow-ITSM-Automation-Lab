@@ -1,0 +1,15 @@
+performance_analytics:
+  dashboards:
+    - name: Plego Request Performance
+      widgets:
+        - type: indicator
+          name: Request Cycle Time
+          source: u_plego_request
+        - type: indicator
+          name: SLA Met Percentage
+          source: task_sla
+    - name: Operational Health
+      widgets:
+        - type: report
+          name: Requests by Category
+          source: u_plego_request

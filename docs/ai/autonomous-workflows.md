@@ -1,45 +1,38 @@
 # Autonomous Workflows (AI Execution Playbooks)
 
-These playbooks are designed for AI agents to execute the build end-to-end. Follow in order.
+These playbooks are designed for AI agents to execute the build end-to-end using automation tools. Follow in order.
 
 ## Workflow 1 — Initialize app + data model
-1. Create scoped app: **Plego ITSM Automation Lab** (`x_plego`).
-2. Create tables:
-   - `u_plego_request`
-   - `u_plego_asset`
-   - `u_plego_integration_log`
-3. Add essential fields per `docs/servicenow/data-model.md`.
+1. Validate desired state files in `ops/desired-state/`.
+2. Apply desired state via `scripts/sn_apply_desired_state.py`.
+3. Confirm tables and fields align with `docs/servicenow/data-model.md`.
 4. Update `docs/success-metrics.md` with evidence links.
 
 ## Workflow 2 — Catalog + record producer
-1. Create catalog items:
-   - Access Request
-   - New Laptop Request
-2. Create record producer:
-   - Report an Incident (creates Incident + links to request)
-3. Configure UI policies and client scripts from `src/ui_policies/` and `src/client_scripts/`.
-4. Capture screenshots of the forms.
+1. Apply catalog definitions from `ops/desired-state/catalog.yml`.
+2. Deploy UI policies and client scripts from `src/ui_policies/` and `src/client_scripts/`.
+3. Capture evidence via `scripts/sn_capture_evidence.py`.
 
 ## Workflow 3 — Flow Designer and automation
-1. Build flow for approvals (manager → IT), auto-assign, SLA timers.
-2. Add notifications and state transitions.
-3. Validate via test requests; log results.
+1. Apply flow definitions from `ops/desired-state/flows.yml`.
+2. Validate via seeded requests from `scripts/sn_seed_data.py`.
+3. Log results in `docs/success-metrics.md`.
 
 ## Workflow 4 — Scripting + policy
 1. Implement business rules from `src/business_rules/`.
 2. Implement script includes + GlideAjax from `src/script_includes/`.
-3. Confirm server/client scripts enforce policy rules.
+3. Confirm server/client scripts enforce policy rules via validation checks.
 
 ## Workflow 5 — Analytics + dashboards
-1. Define KPIs and indicators (cycle time, SLA met %, requests by category/group).
-2. Build dashboard and add filters.
-3. Schedule report export.
+1. Apply dashboard definitions from `ops/desired-state/pa_dashboards.yml`.
+2. Seed KPI data with `scripts/sn_seed_data.py`.
+3. Export reports using `scripts/sn_export_artifacts.py`.
 4. Add evidence to success metrics.
 
 ## Workflow 6 — Integrations
-1. Outbound REST: create GitHub issue on high-priority approval.
-2. Inbound REST API: create/update request.
-3. SOAP call: store response in integration log.
+1. Apply integration definitions from `ops/desired-state/integrations.yml`.
+2. Trigger outbound REST flow via seeded high-priority records.
+3. Validate inbound REST API with scripted checks.
 4. MID Server: attempt setup or follow stub in `docs/servicenow/integrations.md`.
 
 ## Workflow 7 — Performance + troubleshooting
@@ -48,8 +41,8 @@ These playbooks are designed for AI agents to execute the build end-to-end. Foll
 3. Document before/after in `docs/servicenow/performance.md`.
 
 ## Workflow 8 — Security + ITIL alignment
-1. Create roles and ACLs.
-2. Lock down sensitive fields.
+1. Apply roles and ACLs from `ops/desired-state/roles_acls.yml`.
+2. Lock down sensitive fields via scripts and policies.
 3. Ensure audit trails and ITIL-aligned flows.
 
 ## Workflow 9 — Evidence mapping
@@ -59,5 +52,6 @@ These playbooks are designed for AI agents to execute the build end-to-end. Foll
 ## Workflow 10 — Testing + CI readiness
 1. Build ATF suites using `docs/implementation/atf-setup.md`.
 2. Implement tests per `docs/servicenow/atf-test-blueprints.md`.
-3. Record ATF run IDs and results in `docs/success-metrics.md`.
-4. Follow `CHECKLIST.md` and `CI_FAIL_PLAYBOOK.md` for gatekeeping.
+3. Trigger ATF with `scripts/sn_run_atf.py`.
+4. Record ATF run IDs and results in `docs/success-metrics.md`.
+5. Follow `CHECKLIST.md` and `CI_FAIL_PLAYBOOK.md` for gatekeeping.

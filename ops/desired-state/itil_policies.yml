@@ -1,0 +1,14 @@
+itil_policies:
+  change_management:
+    - name: Standard Change - Laptop Provisioning
+      risk: low
+      approvals_required: false
+  incident_management:
+    - name: Major Incident Policy
+      criteria: priority = 1
+      required_actions:
+        - notify_major_incident_team
+        - open_bridge_call
+  request_fulfillment:
+    - name: Access Request SLA
+      target_hours: 24

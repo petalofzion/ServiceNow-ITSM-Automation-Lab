@@ -1,7 +1,7 @@
 # ServiceNow ITSM Automation Lab
 Catalog → Flow Designer → Integrations → Analytics
 
-This repository scaffolds a complete, resume-ready ServiceNow ITSM automation lab. It is intentionally documentation-first so AI agents (and humans) can execute the build step-by-step in a Personal Developer Instance (PDI) while keeping evidence of progress, decisions, and outcomes.
+This repository scaffolds a complete, resume-ready ServiceNow ITSM automation lab. It is intentionally automation-first so agents can converge a Personal Developer Instance (PDI) to the desired state without manual UI steps while keeping evidence of progress, decisions, and outcomes.
 
 ## What you will build
 A scoped ServiceNow app named **Plego ITSM Automation Lab** that implements an end-to-end request lifecycle:
@@ -16,17 +16,22 @@ A scoped ServiceNow app named **Plego ITSM Automation Lab** that implements an e
 - `docs/spec-architecture-requirements.md` — single source of truth for scope, architecture, and requirements
 - `docs/success-metrics.md` — success metrics tracker for resume-ready proof
 - `docs/ai/agent-context.md` — AI agent context and environment setup
-- `docs/ai/autonomous-workflows.md` — step-by-step AI execution playbooks
+- `docs/ai/autonomous-workflows.md` — automation playbooks for agent-driven builds
 - `docs/testing-ci.md` — ATF suites and CI gates
 - `docs/servicenow/atf-test-blueprints.md` — detailed ATF test steps
 - `docs/ci/github-actions.md` — CI/CD guidance for ServiceNow ATF
 - `docs/implementation/` — detailed build instructions and checklists
 - `docs/servicenow/` — configuration blueprints per module
-- `src/` — minimal stub code (Script Includes, Business Rules, etc.) with TODO comments
+- `src/` — template library (Script Includes, Business Rules, etc.) with TODO comments
+- `ops/desired-state/` — declarative desired state the agent converges to
+- `ops/playbooks/` — build/test/export orchestration guides
+- `scripts/` — automation entrypoints calling MCP/SN APIs
+- `.github/workflows/` — CI checks and ServiceNow orchestration workflows
+- `artifacts/` — generated exports, ATF runs, and evidence
 
 ## How to use
 1. Start in `docs/spec-architecture-requirements.md` to understand scope.
-2. Follow `docs/ai/autonomous-workflows.md` to execute the build in a PDI.
+2. Follow `docs/ai/autonomous-workflows.md` to execute the build automation.
 3. Use `docs/success-metrics.md` to log progress and evidence (screenshots, links, metrics).
 4. Set up ATF suites using `docs/implementation/atf-setup.md`.
 5. Follow `CHECKLIST.md` before merging any change.
@@ -37,4 +42,4 @@ A scoped ServiceNow app named **Plego ITSM Automation Lab** that implements an e
 - Failure handling steps are in `CI_FAIL_PLAYBOOK.md`.
 
 ## Status
-This is a scaffold. All ServiceNow configurations are to be completed in the PDI following the documentation.
+This is a scaffold. All ServiceNow configurations are to be converged automatically from the desired state and playbooks.

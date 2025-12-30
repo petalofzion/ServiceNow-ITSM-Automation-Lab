@@ -1,0 +1,14 @@
+integrations:
+  outbound_rest:
+    - name: GitHub Issue on High Priority
+      endpoint: https://api.github.com/repos/{owner}/{repo}/issues
+      method: POST
+      trigger: incident_priority_high
+  inbound_rest:
+    - name: Plego Request Intake
+      endpoint: /api/x_plego/request
+      method: POST
+  soap:
+    - name: Asset Lookup
+      endpoint: https://example.com/asset?wsdl
+      method: POST
