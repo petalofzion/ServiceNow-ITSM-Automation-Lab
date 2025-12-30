@@ -1,0 +1,57 @@
+name: ServiceNow ATF
+
+on:
+  pull_request:
+    branches: ["*"]
+  push:
+    branches: ["main"]
+  schedule:
+    - cron: "0 3 * * *"
+
+jobs:
+  run-atf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run ATF Smoke Suite
+        if: github.event_name == 'pull_request'
+        uses: servicenow-devops/service-now-cicd-run-atf@v2
+        with:
+          instance_url: ${{ secrets.SERVICENOW_INSTANCE_URL }}
+          client_id: ${{ secrets.SERVICENOW_CLIENT_ID }}
+          client_secret: ${{ secrets.SERVICENOW_CLIENT_SECRET }}
+          username: ${{ secrets.SERVICENOW_USERNAME }}
+          password: ${{ secrets.SERVICENOW_PASSWORD }}
+          suite_id: ${{ secrets.SERVICENOW_ATF_SUITE_SMOKE }}
+
+      - name: Run ATF Smoke Suite (main)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: servicenow-devops/service-now-cicd-run-atf@v2
+        with:
+          instance_url: ${{ secrets.SERVICENOW_INSTANCE_URL }}
+          client_id: ${{ secrets.SERVICENOW_CLIENT_ID }}
+          client_secret: ${{ secrets.SERVICENOW_CLIENT_SECRET }}
+          username: ${{ secrets.SERVICENOW_USERNAME }}
+          password: ${{ secrets.SERVICENOW_PASSWORD }}
+          suite_id: ${{ secrets.SERVICENOW_ATF_SUITE_SMOKE }}
+
+      - name: Run ATF Integration Suite
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: servicenow-devops/service-now-cicd-run-atf@v2
+        with:
+          instance_url: ${{ secrets.SERVICENOW_INSTANCE_URL }}
+          client_id: ${{ secrets.SERVICENOW_CLIENT_ID }}
+          client_secret: ${{ secrets.SERVICENOW_CLIENT_SECRET }}
+          username: ${{ secrets.SERVICENOW_USERNAME }}
+          password: ${{ secrets.SERVICENOW_PASSWORD }}
+          suite_id: ${{ secrets.SERVICENOW_ATF_SUITE_INTEGRATION }}
+
+      - name: Run ATF Regression Suite
+        if: github.event_name == 'schedule'
+        uses: servicenow-devops/service-now-cicd-run-atf@v2
+        with:
+          instance_url: ${{ secrets.SERVICENOW_INSTANCE_URL }}
+          client_id: ${{ secrets.SERVICENOW_CLIENT_ID }}
+          client_secret: ${{ secrets.SERVICENOW_CLIENT_SECRET }}
+          username: ${{ secrets.SERVICENOW_USERNAME }}
+          password: ${{ secrets.SERVICENOW_PASSWORD }}
+          suite_id: ${{ secrets.SERVICENOW_ATF_SUITE_REGRESSION }}
