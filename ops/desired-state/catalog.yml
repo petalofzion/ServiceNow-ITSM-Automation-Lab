@@ -1,0 +1,26 @@
+catalog:
+  items:
+    - name: Access Request
+      producer: false
+      variables:
+        - name: system
+          type: reference
+          table: cmdb_ci
+        - name: access_level
+          type: choice
+          choices: [read, write, admin]
+    - name: New Laptop Request
+      producer: false
+      variables:
+        - name: model
+          type: choice
+          choices: [standard, developer]
+  record_producers:
+    - name: Report an Incident
+      table: incident
+      variables:
+        - name: short_description
+          type: string
+        - name: impact
+          type: choice
+          choices: [low, medium, high]

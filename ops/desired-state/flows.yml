@@ -1,0 +1,17 @@
+flows:
+  - name: Request Approval Flow
+    trigger: catalog_item_submitted
+    steps:
+      - type: approval
+        approver: manager
+      - type: assignment
+        group: IT Fulfillment
+      - type: notification
+        template: request_approved
+  - name: Incident Escalation Flow
+    trigger: incident_priority_high
+    steps:
+      - type: notification
+        template: high_priority_alert
+      - type: create_task
+        table: u_plego_request

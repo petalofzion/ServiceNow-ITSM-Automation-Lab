@@ -1,0 +1,18 @@
+name: ServiceNow Build and Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-test-export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply desired state
+        run: python scripts/sn_apply_desired_state.py --apply
+      - name: Seed data
+        run: python scripts/sn_seed_data.py
+      - name: Run ATF
+        run: python scripts/sn_run_atf.py --suite "Plego ITSM Regression"
+      - name: Export artifacts
+        run: python scripts/sn_export_artifacts.py

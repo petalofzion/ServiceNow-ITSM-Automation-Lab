@@ -1,0 +1,34 @@
+app:
+  name: Plego ITSM Automation Lab
+  scope: x_plego
+  version: 0.1.0
+  description: |
+    Automation-first ServiceNow ITSM lab. Desired state managed by
+    orchestration scripts and MCP server calls.
+
+records:
+  tables:
+    - name: u_plego_request
+      label: Plego Request
+      fields:
+        - name: u_request_type
+          type: choice
+          choices: [access, hardware, incident]
+        - name: u_priority
+          type: choice
+          choices: [low, medium, high]
+    - name: u_plego_asset
+      label: Plego Asset
+      fields:
+        - name: u_asset_type
+          type: choice
+          choices: [laptop, accessory]
+    - name: u_plego_integration_log
+      label: Plego Integration Log
+      fields:
+        - name: u_payload
+          type: string
+
+ownership:
+  team: automation-lab
+  source_of_truth: ops/desired-state/app.yml
