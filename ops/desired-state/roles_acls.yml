@@ -1,18 +1,19 @@
-roles:
-  - name: x_plego.user
-    description: Base access to the Plego ITSM Automation Lab.
-  - name: x_plego.manager
-    description: Manager approvals and escalations.
-  - name: x_plego.admin
-    description: Administrative access to lab configuration.
+roles_acls:
+  roles:
+    - name: x_plego.user
+      description: Base access to the Plego ITSM Automation Lab.
+    - name: x_plego.manager
+      description: Manager approvals and escalations.
+    - name: x_plego.admin
+      description: Administrative access to lab configuration.
 
-acls:
-  - table: u_plego_request
-    operation: read
-    roles: [x_plego.user]
-  - table: u_plego_request
-    operation: write
-    roles: [x_plego.manager, x_plego.admin]
-  - table: u_plego_integration_log
-    operation: read
-    roles: [x_plego.admin]
+  acls:
+    - table: u_plego_request
+      operation: read
+      roles: [x_plego.user]
+    - table: u_plego_request
+      operation: write
+      roles: [x_plego.manager, x_plego.admin]
+    - table: u_plego_integration_log
+      operation: read
+      roles: [x_plego.admin]

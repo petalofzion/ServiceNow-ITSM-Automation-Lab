@@ -4,11 +4,14 @@ integrations:
       endpoint: https://api.github.com/repos/{owner}/{repo}/issues
       method: POST
       trigger: incident_priority_high
+      payload_template: templates/github_issue.json
   inbound_rest:
     - name: Plego Request Intake
       endpoint: /api/x_plego/request
       method: POST
+      table: u_plego_request
   soap:
     - name: Asset Lookup
       endpoint: https://example.com/asset?wsdl
       method: POST
+      action: LookupAsset

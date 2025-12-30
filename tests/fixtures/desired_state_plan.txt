@@ -1,0 +1,31 @@
+Plan (dry-run):
+Creates:
+  - role: x_plego.admin
+  - role: x_plego.manager
+  - role: x_plego.user
+  - acl: u_plego_integration_log:read
+  - acl: u_plego_request:read
+  - acl: u_plego_request:write
+  - catalog_item: Access Request
+  - record_producer: Report an Incident
+  - flow: Access Request Approval
+  - business_rule: Enforce Category on Request
+  - ui_policy: Show Justification for Admin Access
+  - client_script: Validate Impact
+  - script_include: PlegoValidation
+  - outbound_rest: GitHub Issue on High Priority
+  - inbound_rest: Plego Request Intake
+  - soap: Asset Lookup
+  - dashboard: Plego ITSM Overview
+  - dashboard_widget: Incidents by Impact
+  - dashboard_widget: Requests by Status
+  - test_suite: Integration
+  - test_case: Outbound REST Logged
+  - test_suite: Smoke
+  - test_case: Access Request Flow Trigger
+  - test_case: Catalog Access Request Submission
+  - test_case: Record Producer Creates Incident
+Updates:
+  (none)
+Deletes:
+  (none)

@@ -1,4 +1,5 @@
 """Capture headless screenshots or evidence artifacts."""
+
 from __future__ import annotations
 
 

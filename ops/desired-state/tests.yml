@@ -1,0 +1,22 @@
+tests:
+  suites:
+    - name: Smoke
+      tests:
+        - name: Catalog Access Request Submission
+          type: atf
+          covers:
+            - catalog.Access Request
+        - name: Record Producer Creates Incident
+          type: atf
+          covers:
+            - catalog.Report an Incident
+        - name: Access Request Flow Trigger
+          type: atf
+          covers:
+            - flow.Access Request Approval
+    - name: Integration
+      tests:
+        - name: Outbound REST Logged
+          type: atf
+          covers:
+            - integration.GitHub Issue on High Priority
