@@ -1,0 +1,25 @@
+scripts:
+  business_rules:
+    - name: Enforce Category on Request
+      table: sc_req_item
+      when: before
+      operation: insert
+      description: Ensure category is set before insert.
+  ui_policies:
+    - name: Show Justification for Admin Access
+      table: sc_req_item
+      condition: "variables.access_level == 'admin'"
+      actions:
+        - field: justification
+          visible: true
+          mandatory: true
+  client_scripts:
+    - name: Validate Impact
+      table: incident
+      type: onSubmit
+      description: Prevent submit if impact is empty.
+  script_includes:
+    - name: PlegoValidation
+      scope: x_plego
+      api: validateAccessLevel
+      description: Shared validation helpers.

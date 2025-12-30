@@ -1,4 +1,5 @@
 """Trigger ATF suites via CI/CD API and store results."""
+
 from __future__ import annotations
 
 import argparse

@@ -1,0 +1,12 @@
+dashboards:
+  - name: Plego ITSM Overview
+    description: KPIs for catalog and incident throughput.
+    widgets:
+      - name: Requests by Status
+        type: indicator
+        source: pa_indicator
+        table: sc_req_item
+      - name: Incidents by Impact
+        type: report
+        source: report
+        table: incident

@@ -1,7 +1,7 @@
 catalog:
   items:
     - name: Access Request
-      producer: false
+      description: Request elevated access to a system.
       variables:
         - name: system
           type: reference
@@ -9,12 +9,7 @@ catalog:
         - name: access_level
           type: choice
           choices: [read, write, admin]
-    - name: New Laptop Request
-      producer: false
-      variables:
-        - name: model
-          type: choice
-          choices: [standard, developer]
+      flow_trigger: Access Request Approval
   record_producers:
     - name: Report an Incident
       table: incident
@@ -24,3 +19,14 @@ catalog:
         - name: impact
           type: choice
           choices: [low, medium, high]
+  flows:
+    - name: Access Request Approval
+      trigger:
+        type: catalog_item
+        catalog_item: Access Request
+        condition: "access_level == 'admin'"
+      steps:
+        - action: approval
+          role: x_plego.manager
+        - action: task
+          assignment_group: Service Desk

@@ -6,11 +6,16 @@ on:
     branches: [main]
 
 jobs:
-  lint-docs:
+  ci:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Validate desired state files
-        run: python scripts/sn_apply_desired_state.py --validate
-      - name: Lint markdown (placeholder)
-        run: echo "lint docs"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install tooling
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install ruff black mypy pytest pydantic pyyaml
+      - name: Run CI checks
+        run: make ci
