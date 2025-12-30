@@ -50,9 +50,10 @@ These are detailed step outlines to build each Automated Test Framework (ATF) te
 2. Assert returned group matches expected sys_id.
 
 ### Test: Data quality
-1. Query for catalog-origin requests without RITM (filter by source/type).
+1. Query for requests where both `requested_item` and `incident` are empty.
 2. Assert none returned.
-3. For non-catalog requests, assert they have a valid Incident or integration source.
+3. Query for requests where both `requested_item` and `incident` are populated.
+4. Assert none returned (each request should link to exactly one of the two).
 
 ## Integration Suite
 ### Test: Outbound REST (mocked)
