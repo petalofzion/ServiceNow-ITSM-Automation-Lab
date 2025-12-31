@@ -1,0 +1,3 @@
+[submodule "tools/servicenow-mcp"]
+	path = tools/servicenow-mcp
+	url = https://github.com/echelon-ai-labs/servicenow-mcp.git

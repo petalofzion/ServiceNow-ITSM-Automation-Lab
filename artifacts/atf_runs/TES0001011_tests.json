@@ -1,0 +1,1428 @@
+{
+  "result": [
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/419c141753ca3250fd7b7bd0a0490e6b",
+        "value": "419c141753ca3250fd7b7bd0a0490e6b"
+      },
+      "test_description": "",
+      "end_time_millis": "19b7351ff340000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/059c141753ca3250fd7b7bd0a0490e6e",
+        "value": "059c141753ca3250fd7b7bd0a0490e6e"
+      },
+      "started_pending_time": "2025-12-31 07:31:50",
+      "sys_updated_on": "2025-12-31 07:31:52",
+      "pending_time": "1970-01-01 00:00:01",
+      "first_failing_step": "",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Test passed",
+      "sys_id": "059c141753ca3250fd7b7bd0a0490eec",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 07:31:50",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:01",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/3cc9149f538a3250fd7b7bd0a0490e4f",
+        "value": "3cc9149f538a3250fd7b7bd0a0490e4f"
+      },
+      "start_time_millis": "19b7351fde30000001",
+      "end_time": "2025-12-31 07:31:52",
+      "sys_mod_count": "2",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 07:31:51",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/c59c141753ca3250fd7b7bd0a0490e6f",
+        "value": "c59c141753ca3250fd7b7bd0a0490e6f"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/499c141753ca3250fd7b7bd0a0490ee2",
+        "value": "499c141753ca3250fd7b7bd0a0490ee2"
+      },
+      "parameters": "",
+      "test_name": "Smoke Logging and Script Includes",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "success"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/419c141753ca3250fd7b7bd0a0490e6b",
+        "value": "419c141753ca3250fd7b7bd0a0490e6b"
+      },
+      "test_description": "",
+      "end_time_millis": "19b73521a380000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/899c141753ca3250fd7b7bd0a0490ef5",
+        "value": "899c141753ca3250fd7b7bd0a0490ef5"
+      },
+      "started_pending_time": "2025-12-31 07:31:50",
+      "sys_updated_on": "2025-12-31 07:31:59",
+      "pending_time": "1970-01-01 00:00:08",
+      "first_failing_step": "",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Test passed",
+      "sys_id": "059c141753ca3250fd7b7bd0a0490ef7",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 07:31:50",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:01",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/ee629647538afe10fd7b7bd0a0490eed",
+        "value": "ee629647538afe10fd7b7bd0a0490eed"
+      },
+      "start_time_millis": "19b7352191e0000001",
+      "end_time": "2025-12-31 07:31:59",
+      "sys_mod_count": "2",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 07:31:58",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/4d9c141753ca3250fd7b7bd0a0490ef6",
+        "value": "4d9c141753ca3250fd7b7bd0a0490ef6"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/499c141753ca3250fd7b7bd0a0490ee2",
+        "value": "499c141753ca3250fd7b7bd0a0490ee2"
+      },
+      "parameters": "",
+      "test_name": "Access Request Flow Trigger",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "success"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/85cc545753ca3250fd7b7bd0a0490e9e",
+        "value": "85cc545753ca3250fd7b7bd0a0490e9e"
+      },
+      "test_description": "",
+      "end_time_millis": "19b7352c0500000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/09cc545753ca3250fd7b7bd0a0490ea2",
+        "value": "09cc545753ca3250fd7b7bd0a0490ea2"
+      },
+      "started_pending_time": "2025-12-31 07:32:39",
+      "sys_updated_on": "2025-12-31 07:32:41",
+      "pending_time": "1970-01-01 00:00:02",
+      "first_failing_step": "",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Test passed",
+      "sys_id": "05cc945753ca3250fd7b7bd0a0490e52",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 07:32:39",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:00",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/5ac9949f538a3250fd7b7bd0a0490e38",
+        "value": "5ac9949f538a3250fd7b7bd0a0490e38"
+      },
+      "start_time_millis": "19b7352bf9e0000001",
+      "end_time": "2025-12-31 07:32:41",
+      "sys_mod_count": "2",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 07:32:41",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/4dcc945753ca3250fd7b7bd0a0490e51",
+        "value": "4dcc945753ca3250fd7b7bd0a0490e51"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/38cc945753ca3250fd7b7bd0a0490e3e",
+        "value": "38cc945753ca3250fd7b7bd0a0490e3e"
+      },
+      "parameters": "",
+      "test_name": "SOAP Call Logged",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "success"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/44461897538a3250fd7b7bd0a0490e65",
+        "value": "44461897538a3250fd7b7bd0a0490e65"
+      },
+      "test_description": "",
+      "end_time_millis": "19b7338b45f0000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/8c465897538a3250fd7b7bd0a0490e2d",
+        "value": "8c465897538a3250fd7b7bd0a0490e2d"
+      },
+      "started_pending_time": "2025-12-31 07:04:12",
+      "sys_updated_on": "2025-12-31 07:04:14",
+      "pending_time": "1970-01-01 00:00:00",
+      "first_failing_step": "",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Test passed",
+      "sys_id": "08465897538a3250fd7b7bd0a0490e2f",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 07:04:12",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:02",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/1e801603538afe10fd7b7bd0a0490e33",
+        "value": "1e801603538afe10fd7b7bd0a0490e33"
+      },
+      "start_time_millis": "19b7338ab9b0000001",
+      "end_time": "2025-12-31 07:04:14",
+      "sys_mod_count": "2",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 07:04:12",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/40465897538a3250fd7b7bd0a0490e2f",
+        "value": "40465897538a3250fd7b7bd0a0490e2f"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/00465417538a3250fd7b7bd0a0490e04",
+        "value": "00465417538a3250fd7b7bd0a0490e04"
+      },
+      "parameters": "",
+      "test_name": "Catalog Access Request Submission",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "success"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/0e93dcdf534a3250fd7b7bd0a0490eda",
+        "value": "0e93dcdf534a3250fd7b7bd0a0490eda"
+      },
+      "test_description": "",
+      "end_time_millis": "19b732e27ba0000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/8e93dcdf534a3250fd7b7bd0a0490ede",
+        "value": "8e93dcdf534a3250fd7b7bd0a0490ede"
+      },
+      "started_pending_time": "2025-12-31 06:52:35",
+      "sys_updated_on": "2025-12-31 06:52:43",
+      "pending_time": "1970-01-01 00:00:08",
+      "first_failing_step": "",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Test passed",
+      "sys_id": "0a93dcdf534a3250fd7b7bd0a0490ee0",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 06:52:35",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:00",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/4e629647538afe10fd7b7bd0a0490e50",
+        "value": "4e629647538afe10fd7b7bd0a0490e50"
+      },
+      "start_time_millis": "19b732e27100000001",
+      "end_time": "2025-12-31 06:52:43",
+      "sys_mod_count": "2",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 06:52:43",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/4293dcdf534a3250fd7b7bd0a0490ee0",
+        "value": "4293dcdf534a3250fd7b7bd0a0490ee0"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/ce93dcdf534a3250fd7b7bd0a0490eb4",
+        "value": "ce93dcdf534a3250fd7b7bd0a0490eb4"
+      },
+      "parameters": "",
+      "test_name": "Record Producer Creates Incident",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "success"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/a2e490d3538a3250fd7b7bd0a0490e82",
+        "value": "a2e490d3538a3250fd7b7bd0a0490e82"
+      },
+      "test_description": "",
+      "end_time_millis": "19b733365c90000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/aee4d0d3538a3250fd7b7bd0a0490e27",
+        "value": "aee4d0d3538a3250fd7b7bd0a0490e27"
+      },
+      "started_pending_time": "2025-12-31 06:58:21",
+      "sys_updated_on": "2025-12-31 06:58:26",
+      "pending_time": "1970-01-01 00:00:02",
+      "first_failing_step": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_result_step/4be4d0d3538a3250fd7b7bd0a0490e60",
+        "value": "4be4d0d3538a3250fd7b7bd0a0490e60"
+      },
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Request not created\n\n\nFull logging from step execution:\n22:58:23.275 Loading script: jasmine_lib/jasmine31.js\n22:58:23.283 Successfully loaded jasmine_lib/jasmine31.js\n22:58:23.376 [CatalogItem] Catalog Item Cache Created: e180d203538afe10fd7b7bd0a0490e6f\n22:58:23.415 Translation MetaData: table=sc_cat_item, hierarchy=[sc_cat_item_wizard, sc_cat_item_producer, sc_cat_item_guide, pc_product_cat_item, pc_software_cat_item, pc_hardware_cat_item, sys_metadata, sc_cat_item_service, sc_cat_item_composite_producer, sc_cat_item, std_change_record_producer, sc_cat_item_content], translatedFields=[short_description, description, name]\n22:58:23.415 [DefaultTranslationProvider] Loading translations for: table=sc_cat_item, id=e180d203538afe10fd7b7bd0a0490e6f, language=en, source=sc_cat_item\n22:58:23.416 [DefaultTranslationProvider] Loaded translations for: table=sc_cat_item, id=e180d203538afe10fd7b7bd0a0490e6f, language=en, source=sc_cat_item, size=3\n22:58:23.960 notification.provider: For Synchronous Providers: Loaded 1 recipients and 2 destinations and delivered to 1 destinations in 126ms\n22:58:24.124 notification.provider: For Synchronous Providers: Loaded 1 recipients and 2 destinations and delivered to 1 destinations in 51ms\n22:58:24.138 Slow business rule 'Create Request Item Child Tasks' on sc_req_item:<span class = \"session-log-bold-text\"> RITM0010002</span>, time was: 0:00:00.483\n22:58:24.202  [DEBUG] APPROVAL = not requested CHANGES = true\n22:58:24.202  [DEBUG] CURRENT STAGE = requested\n22:58:24.202  [DEBUG] DESIRED = requested\n22:58:24.262 notification.provider: For Synchronous Providers: Recipient 6816f79cc0a8016401c5a33be04be441 excluded from the recipient list because 'Is originating user included' is unchecked\n22:58:24.264 notification.provider: For Synchronous Providers: Recipient 6816f79cc0a8016401c5a33be04be441 excluded from the recipient list because 'Is originating user included' is unchecked\n22:58:24.267 notification.provider: For Synchronous Providers: Loaded 0 recipients and 0 destinations and delivered to 0 destinations in 4ms\n22:58:24.303 Complex type redefined: FlowDesigner:FDCollection\n22:58:24.347 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:58:24.350 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:58:24.407 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:58:24.408 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:58:24.428 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:58:24.429 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:58:24.636 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:58:24.638 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:58:24.639 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:58:24.641 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:58:24.774 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:58:24.776 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:58:24.911 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:58:24.913 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:58:24.914 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:58:24.915 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:58:24.920 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:58:24.921 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:58:24.922 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:58:24.924 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:58:24.927 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:58:24.928 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:58:24.930 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:58:24.931 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:58:24.935 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:58:24.936 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:58:25.198 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:58:25.200 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:58:25.201 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:58:25.202 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:58:25.257 Flow Designer: Begin creating Action \"Update Record\" (sys id 26c36d9f9fd11210db9f618dfa0a1c13) with order number 1 in flow and UUID 9b5e4651-fcdf-4cee-9d6e-dbee36b8a96d\n22:58:25.257 Flow Designer: Begin creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with step number 1 of Action \"Update Record\" (sys id 26c36d9f9fd11210db9f618dfa0a1c13) with order number 1 in flow and UUID 9b5e4651-fcdf-4cee-9d6e-dbee36b8a96d\n22:58:25.258 Flow Designer: Finished creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with an input count of 3, a core output count of 3, and an extended output count of 0 as step number 1 of Action \"Update Record\" with order number 1 in flow and UUID 9b5e4651-fcdf-4cee-9d6e-dbee36b8a96d\n22:58:25.258 Flow Designer: Finished creating Action \"Update Record\" (sys id 26c36d9f9fd11210db9f618dfa0a1c13) with an input count of 3 an output count of 4 with order number 1 in flow and UUID 9b5e4651-fcdf-4cee-9d6e-dbee36b8a96d\n22:58:25.259 Flow Designer: Begin creating Action \"Update Record\" (sys id 9e6c6d5b9f151210db9f618dfa0a1cb1) with order number 4 in flow and UUID 91a8cd00-953e-4589-ad72-dcb20b33c79b\n22:58:25.259 Flow Designer: Begin creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with step number 1 of Action \"Update Record\" (sys id 9e6c6d5b9f151210db9f618dfa0a1cb1) with order number 4 in flow and UUID 91a8cd00-953e-4589-ad72-dcb20b33c79b\n22:58:25.260 Flow Designer: Finished creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with an input count of 3, a core output count of 3, and an extended output count of 0 as step number 1 of Action \"Update Record\" with order number 4 in flow and UUID 91a8cd00-953e-4589-ad72-dcb20b33c79b\n22:58:25.260 Flow Designer: Finished creating Action \"Update Record\" (sys id 9e6c6d5b9f151210db9f618dfa0a1cb1) with an input count of 3 an output count of 4 with order number 4 in flow and UUID 91a8cd00-953e-4589-ad72-dcb20b33c79b\n22:58:25.260 Flow Designer: Begin creating Action \"Update Record\" (sys id 966c6d5b9f151210db9f618dfa0a1cb2) with order number 7 in flow and UUID 632be00a-d87b-4d0e-8c5e-4bf3623bb6e6\n22:58:25.260 Flow Designer: Begin creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with step number 1 of Action \"Update Record\" (sys id 966c6d5b9f151210db9f618dfa0a1cb2) with order number 7 in flow and UUID 632be00a-d87b-4d0e-8c5e-4bf3623bb6e6\n22:58:25.261 Flow Designer: Finished creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with an input count of 3, a core output count of 3, and an extended output count of 0 as step number 1 of Action \"Update Record\" with order number 7 in flow and UUID 632be00a-d87b-4d0e-8c5e-4bf3623bb6e6\n22:58:25.261 Flow Designer: Finished creating Action \"Update Record\" (sys id 966c6d5b9f151210db9f618dfa0a1cb2) with an input count of 3 an output count of 4 with order number 7 in flow and UUID 632be00a-d87b-4d0e-8c5e-4bf3623bb6e6\n22:58:25.272 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:58:25.273 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:58:25.397 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:58:25.399 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:58:25.511 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:58:25.513 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:58:25.613 Flow Designer: actionSysId/aliasOverride null or empty\n22:58:25.625 Flow Designer: actionSysId/aliasOverride null or empty\n22:58:25.638 Flow Designer: actionSysId/aliasOverride null or empty\n22:58:25.826 [CacheFlushLog] event=sys_hub_flow, count=1, ms=2599: Flushing catalog sys_hub_flow\n22:58:25.888 Flow Designer: Begin creating Action \"Update Record\" (sys id 26c36d9f9fd11210db9f618dfa0a1c13) with order number 1 in flow and UUID 9b5e4651-fcdf-4cee-9d6e-dbee36b8a96d\n22:58:25.888 Flow Designer: Begin creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with step number 1 of Action \"Update Record\" (sys id 26c36d9f9fd11210db9f618dfa0a1c13) with order number 1 in flow and UUID 9b5e4651-fcdf-4cee-9d6e-dbee36b8a96d\n22:58:25.888 Flow Designer: Finished creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with an input count of 3, a core output count of 3, and an extended output count of 0 as step number 1 of Action \"Update Record\" with order number 1 in flow and UUID 9b5e4651-fcdf-4cee-9d6e-dbee36b8a96d\n22:58:25.889 Flow Designer: Finished creating Action \"Update Record\" (sys id 26c36d9f9fd11210db9f618dfa0a1c13) with an input count of 3 an output count of 4 with order number 1 in flow and UUID 9b5e4651-fcdf-4cee-9d6e-dbee36b8a96d\n22:58:25.890 Flow Designer: Begin creating Action \"Update Record\" (sys id 9e6c6d5b9f151210db9f618dfa0a1cb1) with order number 4 in flow and UUID 91a8cd00-953e-4589-ad72-dcb20b33c79b\n22:58:25.890 Flow Designer: Begin creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with step number 1 of Action \"Update Record\" (sys id 9e6c6d5b9f151210db9f618dfa0a1cb1) with order number 4 in flow and UUID 91a8cd00-953e-4589-ad72-dcb20b33c79b\n22:58:25.890 Flow Designer: Finished creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with an input count of 3, a core output count of 3, and an extended output count of 0 as step number 1 of Action \"Update Record\" with order number 4 in flow and UUID 91a8cd00-953e-4589-ad72-dcb20b33c79b\n22:58:25.890 Flow Designer: Finished creating Action \"Update Record\" (sys id 9e6c6d5b9f151210db9f618dfa0a1cb1) with an input count of 3 an output count of 4 with order number 4 in flow and UUID 91a8cd00-953e-4589-ad72-dcb20b33c79b\n22:58:25.891 Flow Designer: Begin creating Action \"Update Record\" (sys id 966c6d5b9f151210db9f618dfa0a1cb2) with order number 7 in flow and UUID 632be00a-d87b-4d0e-8c5e-4bf3623bb6e6\n22:58:25.891 Flow Designer: Begin creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with step number 1 of Action \"Update Record\" (sys id 966c6d5b9f151210db9f618dfa0a1cb2) with order number 7 in flow and UUID 632be00a-d87b-4d0e-8c5e-4bf3623bb6e6\n22:58:25.891 Flow Designer: Finished creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with an input count of 3, a core output count of 3, and an extended output count of 0 as step number 1 of Action \"Update Record\" with order number 7 in flow and UUID 632be00a-d87b-4d0e-8c5e-4bf3623bb6e6\n22:58:25.891 Flow Designer: Finished creating Action \"Update Record\" (sys id 966c6d5b9f151210db9f618dfa0a1cb2) with an input count of 3 an output count of 4 with order number 7 in flow and UUID 632be00a-d87b-4d0e-8c5e-4bf3623bb6e6\n22:58:26.161 Queued flow.fire event in NowMQ for sys_flow_context.sys_id: 1fe414d3b98a3250c577531f43ba3808, sysevent.sys_id: 7be414d3538a3250fd7b7bd0a0490eac, priority 5, cached: true\n22:58:26.211 Not releasing expired mutex dd6dad02531530100f29ddeeff7b12294fe4d0d3538a3250fd7b7bd0a0490e94 acquired at null last touched at null\n22:58:26.211 TriggerEngine:runEngine took 1.940ms to process for 'insert' operation on the record sc_request[4fe4d0d3538a3250fd7b7bd0a0490e94]\n",
+      "sys_id": "2ae4d0d3538a3250fd7b7bd0a0490e29",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 06:58:21",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:03",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/1e801603538afe10fd7b7bd0a0490e33",
+        "value": "1e801603538afe10fd7b7bd0a0490e33"
+      },
+      "start_time_millis": "19b7333575e0000001",
+      "end_time": "2025-12-31 06:58:26",
+      "sys_mod_count": "3",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 06:58:23",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/62e4d0d3538a3250fd7b7bd0a0490e29",
+        "value": "62e4d0d3538a3250fd7b7bd0a0490e29"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/6ee490d3538a3250fd7b7bd0a0490ee3",
+        "value": "6ee490d3538a3250fd7b7bd0a0490ee3"
+      },
+      "parameters": "",
+      "test_name": "Catalog Access Request Submission",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "failure"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/44461897538a3250fd7b7bd0a0490e65",
+        "value": "44461897538a3250fd7b7bd0a0490e65"
+      },
+      "test_description": "",
+      "end_time_millis": "19b7338b8460000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/c4465897538a3250fd7b7bd0a0490e30",
+        "value": "c4465897538a3250fd7b7bd0a0490e30"
+      },
+      "started_pending_time": "2025-12-31 07:04:12",
+      "sys_updated_on": "2025-12-31 07:04:15",
+      "pending_time": "1970-01-01 00:00:03",
+      "first_failing_step": "",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Test passed",
+      "sys_id": "40465897538a3250fd7b7bd0a0490e32",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 07:04:12",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:00",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/4e629647538afe10fd7b7bd0a0490e50",
+        "value": "4e629647538afe10fd7b7bd0a0490e50"
+      },
+      "start_time_millis": "19b7338b61d0000001",
+      "end_time": "2025-12-31 07:04:15",
+      "sys_mod_count": "2",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 07:04:15",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/88465897538a3250fd7b7bd0a0490e31",
+        "value": "88465897538a3250fd7b7bd0a0490e31"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/00465417538a3250fd7b7bd0a0490e04",
+        "value": "00465417538a3250fd7b7bd0a0490e04"
+      },
+      "parameters": "",
+      "test_name": "Record Producer Creates Incident",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "success"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/0e93dcdf534a3250fd7b7bd0a0490eda",
+        "value": "0e93dcdf534a3250fd7b7bd0a0490eda"
+      },
+      "test_description": "",
+      "end_time_millis": "19b732e29480000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/c693dcdf534a3250fd7b7bd0a0490ee1",
+        "value": "c693dcdf534a3250fd7b7bd0a0490ee1"
+      },
+      "started_pending_time": "2025-12-31 06:52:35",
+      "sys_updated_on": "2025-12-31 06:52:43",
+      "pending_time": "1970-01-01 00:00:08",
+      "first_failing_step": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_result_step/c4a3d013538a3250fd7b7bd0a0490e23",
+        "value": "c4a3d013538a3250fd7b7bd0a0490e23"
+      },
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "\n\n\nFull logging from step execution:\n22:52:43.586 Loading script: jasmine_lib/jasmine31.js\n22:52:43.589 Successfully loaded jasmine_lib/jasmine31.js\n22:52:43.589 Script compilation error: Script Identifier: sys_atf_step.7a629647538afe10fd7b7bd0a0490efb, Error Description: invalid return (sys_atf_step.7a629647538afe10fd7b7bd0a0490efb; line 1), Script ES Level: 0, Interpreted Mode: true\n22:52:43.589 Javascript compiler exception: invalid return (sys_atf_step.7a629647538afe10fd7b7bd0a0490efb; line 1) in:\nvar assertEqual = function(assertion) {   if (!(assertion.value == assertion.shouldbe)) {     gs.info(\"Assertion failed: \" + assertion.name + \" should have been \" + assertion.shouldbe +            \" but was \" + assertion.value);     throw \"Assertion failed\";   } }; try {   var steps = function(step_id){     return step.sibling(step_id);   };   var flow = new GlideRecord('sys_hub_flow');flow.addQuery('name','Access Request Approval');flow.query();if (!flow.next()) {stepResult.setOutputMessage('Fl...\n Stack trace:\n\n22:52:43.590 invalid return (sys_atf_step.7a629647538afe10fd7b7bd0a0490efb; line 1): org.mozilla.javascript.EvaluatorException: invalid return (sys_atf_step.7a629647538afe10fd7b7bd0a0490efb; line 1): \torg.mozilla.javascript.DefaultErrorReporter.runtimeError(DefaultErrorReporter.java:58)\n\torg.mozilla.javascript.DefaultErrorReporter.error(DefaultErrorReporter.java:48)\n\torg.mozilla.javascript.Parser.addError(Parser.java:258)\n\torg.mozilla.javascript.Parser.reportError(Parser.java:333)\n\torg.mozilla.javascript.Parser.reportError(Parser.java:325)\n\torg.mozilla.javascript.Parser.reportError(Parser.java:321)\n\torg.mozilla.javascript.Parser.returnOrYield(Parser.java:2134)\n\torg.mozilla.javascript.Parser.statementHelper(Parser.java:1388)\n\torg.mozilla.javascript.Parser.statement(Parser.java:1277)\n\torg.mozilla.javascript.Parser.statements(Parser.java:1236)\n\torg.mozilla.javascript.Parser.block(Parser.java:2217)\n\torg.mozilla.javascript.Parser.statementHelper(Parser.java:1398)\n\torg.mozilla.javascript.Parser.statement(Parser.java:1277)\n\torg.mozilla.javascript.Parser.getNextStatementAfterInlineComments(Parser.java:1667)\n\torg.mozilla.javascript.Parser.ifStatement(Parser.java:1492)\n\torg.mozilla.javascript.Parser.statementHelper(Parser.java:1334)\n\torg.mozilla.javascript.Parser.statement(Parser.java:1277)\n\torg.mozilla.javascript.Parser.statements(Parser.java:1236)\n\torg.mozilla.javascript.Parser.block(Parser.java:2217)\n\torg.mozilla.javascript.Parser.statementHelper(Parser.java:1398)\n\torg.mozilla.javascript.Parser.statement(Parser.java:1277)\n\torg.mozilla.javascript.Parser.getNextStatementAfterInlineComments(Parser.java:1667)\n\torg.mozilla.javascript.Parser.tryStatement(Parser.java:1848)\n\torg.mozilla.javascript.Parser.statementHelper(Parser.java:1349)\n\torg.mozilla.javascript.Parser.statement(Parser.java:1277)\n\torg.mozilla.javascript.Parser.parse(Parser.java:662)\n\torg.mozilla.javascript.Parser.parse(Parser.java:583)\n\torg.mozilla.javascript.Context.parse(Context.java:3553)\n\torg.mozilla.javascript.Context.compileImpl(Context.java:3429)\n\torg.mozilla.javascript.Context.compileReader(Context.java:2069)\n\tcom.glide.script.InterpretedCompiler.interpret0(InterpretedCompiler.java:110)\n\tcom.glide.script.InterpretedCompiler.compile0(InterpretedCompiler.java:61)\n\tcom.glide.script.InterpretedCompiler.compile0(InterpretedCompiler.java:56)\n\tcom.glide.script.Compiler.compile(Compiler.java:225)\n\tcom.glide.script.InterpretedCompiler.interpret(InterpretedCompiler.java:51)\n\tcom.glide.script.ScriptCompiler.getScript(ScriptCompiler.java:58)\n\tcom.glide.script.ScriptEvaluator.getScript(ScriptEvaluator.java:540)\n\tcom.glide.script.ScriptEvaluator.execute(ScriptEvaluator.java:506)\n\tcom.glide.script.ScriptEvaluator.evaluate(ScriptEvaluator.java:243)\n\tcom.glide.script.fencing.GlideScopedEvaluator.evaluateScript(GlideScopedEvaluator.java:396)\n\tcom.glide.script.fencing.GlideScopedEvaluator.evaluateScript(GlideScopedEvaluator.java:335)\n\tcom.glide.automated_testing_framework.runner.step.JasmineScriptTestRunner.execute(JasmineScriptTestRunner.java:167)\n\tcom.glide.automated_testing_framework.runner.step_environment.AbstractServerStepEnvRunner.lambda$processStep$0(AbstractServerStepEnvRunner.java:209)\n\tcom.glide.rollback.recording.RollbackRecorder.execute(RollbackRecorder.java:67)\n\tcom.glide.automated_testing_framework.util.ATFRollbackUtil.recordOpsInRollbackContext(ATFRollbackUtil.java:81)\n\tcom.glide.automated_testing_framework.runner.step_environment.AbstractServerStepEnvRunner.processStep(AbstractServerStepEnvRunner.java:193)\n\tcom.glide.automated_testing_framework.runner.step_environment.AbstractServerStepEnvRunner.processSteps(AbstractServerStepEnvRunner.java:152)\n\tcom.glide.metadata.tracing.MetadataTracer.executeJob(MetadataTracer.java:342)\n\tcom.glide.metadata.tracing.MetadataTracer.executeWithTrace(MetadataTracer.java:332)\n\tcom.glide.automated_testing_framework.runner.step_environment.AbstractServerStepEnvRunner.execute(AbstractServerStepEnvRunner.java:70)\n\tcom.glide.metadata.tracing.MetadataTracer.executeWithTrace(MetadataTracer.java:329)\n\tcom.glide.automated_testing_framework.worker.TestExecutionWorker.executeTestInOrderByBatch(TestExecutionWorker.java:513)\n\tcom.glide.automated_testing_framework.worker.TestExecutionWorker.execute(TestExecutionWorker.java:344)\n\tcom.glide.automated_testing_framework.worker.TestExecutionWorker.run(TestExecutionWorker.java:1202)\n\tcom.glide.automated_testing_framework.scheduler.ATFSchedulerWorker.runTest(ATFSchedulerWorker.java:163)\n\tcom.glide.automated_testing_framework.scheduler.ATFSchedulerWorker.findAndRunTest(ATFSchedulerWorker.java:120)\n\tcom.glide.automated_testing_framework.scheduler.ATFScheduler.execute(ATFScheduler.java:41)\n\tcom.glide.schedule.JobExecutor.lambda$executeJob$1(JobExecutor.java:216)\n\tcom.snc.db.data_replicate.replicator.DataReplicationAdvisors.runInOriginatorContext(DataReplicationAdvisors.java:74)\n\tcom.glide.schedule.JobExecutor.lambda$inDataReplicationContext$3(JobExecutor.java:246)\n\tcom.glide.schedule.JobExecutor.executeJob(JobExecutor.java:219)\n\tcom.glide.schedule.JobExecutor.execute(JobExecutor.java:195)\n\tcom.glide.schedule.JobExecutor.execute(JobExecutor.java:184)\n\tcom.glide.schedule_v2.SchedulerWorkerThread.executeJob(SchedulerWorkerThread.java:623)\n\tcom.glide.schedule_v2.SchedulerWorkerThread.lambda$process$3(SchedulerWorkerThread.java:409)\n\tcom.glide.worker.TransactionalWorkerThread.executeInTransaction(TransactionalWorkerThread.java:35)\n\tcom.glide.schedule_v2.SchedulerWorkerThread.process(SchedulerWorkerThread.java:409)\n\tcom.glide.schedule_v2.SchedulerWorkerThread.run(SchedulerWorkerThread.java:183)\n\n",
+      "sys_id": "4293dcdf534a3250fd7b7bd0a0490ee3",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 06:52:35",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:00",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/ee629647538afe10fd7b7bd0a0490eed",
+        "value": "ee629647538afe10fd7b7bd0a0490eed"
+      },
+      "start_time_millis": "19b732e288c0000001",
+      "end_time": "2025-12-31 06:52:43",
+      "sys_mod_count": "3",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 06:52:43",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/8a93dcdf534a3250fd7b7bd0a0490ee2",
+        "value": "8a93dcdf534a3250fd7b7bd0a0490ee2"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/ce93dcdf534a3250fd7b7bd0a0490eb4",
+        "value": "ce93dcdf534a3250fd7b7bd0a0490eb4"
+      },
+      "parameters": "",
+      "test_name": "Access Request Flow Trigger",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "error"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/419c141753ca3250fd7b7bd0a0490e6b",
+        "value": "419c141753ca3250fd7b7bd0a0490e6b"
+      },
+      "test_description": "",
+      "end_time_millis": "19b73520d490000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/cd9c141753ca3250fd7b7bd0a0490eed",
+        "value": "cd9c141753ca3250fd7b7bd0a0490eed"
+      },
+      "started_pending_time": "2025-12-31 07:31:50",
+      "sys_updated_on": "2025-12-31 07:31:55",
+      "pending_time": "1970-01-01 00:00:02",
+      "first_failing_step": "",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Test passed",
+      "sys_id": "499c141753ca3250fd7b7bd0a0490eef",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 07:31:50",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:03",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/1e801603538afe10fd7b7bd0a0490e33",
+        "value": "1e801603538afe10fd7b7bd0a0490e33"
+      },
+      "start_time_millis": "19b735200530000001",
+      "end_time": "2025-12-31 07:31:55",
+      "sys_mod_count": "2",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 07:31:52",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/819c141753ca3250fd7b7bd0a0490eef",
+        "value": "819c141753ca3250fd7b7bd0a0490eef"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/499c141753ca3250fd7b7bd0a0490ee2",
+        "value": "499c141753ca3250fd7b7bd0a0490ee2"
+      },
+      "parameters": "",
+      "test_name": "Catalog Access Request Submission",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "success"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/85cc545753ca3250fd7b7bd0a0490e9e",
+        "value": "85cc545753ca3250fd7b7bd0a0490e9e"
+      },
+      "test_description": "",
+      "end_time_millis": "19b7352bf060000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/cdcc545753ca3250fd7b7bd0a0490e9f",
+        "value": "cdcc545753ca3250fd7b7bd0a0490e9f"
+      },
+      "started_pending_time": "2025-12-31 07:32:39",
+      "sys_updated_on": "2025-12-31 07:32:41",
+      "pending_time": "1970-01-01 00:00:01",
+      "first_failing_step": "",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Test passed",
+      "sys_id": "49cc545753ca3250fd7b7bd0a0490ea1",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 07:32:39",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:01",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/d1c9149f538a3250fd7b7bd0a0490ef6",
+        "value": "d1c9149f538a3250fd7b7bd0a0490ef6"
+      },
+      "start_time_millis": "19b7352bd2f0000001",
+      "end_time": "2025-12-31 07:32:41",
+      "sys_mod_count": "2",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 07:32:40",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/81cc545753ca3250fd7b7bd0a0490ea1",
+        "value": "81cc545753ca3250fd7b7bd0a0490ea1"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/38cc945753ca3250fd7b7bd0a0490e3e",
+        "value": "38cc945753ca3250fd7b7bd0a0490e3e"
+      },
+      "parameters": "",
+      "test_name": "Outbound REST Success",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "success"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/419c141753ca3250fd7b7bd0a0490e6b",
+        "value": "419c141753ca3250fd7b7bd0a0490e6b"
+      },
+      "test_description": "",
+      "end_time_millis": "19b7352232d0000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/c19c141753ca3250fd7b7bd0a0490ef8",
+        "value": "c19c141753ca3250fd7b7bd0a0490ef8"
+      },
+      "started_pending_time": "2025-12-31 07:31:50",
+      "sys_updated_on": "2025-12-31 07:32:01",
+      "pending_time": "1970-01-01 00:00:09",
+      "first_failing_step": "",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Test passed",
+      "sys_id": "4d9c141753ca3250fd7b7bd0a0490ef9",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 07:31:50",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:02",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/d0c9d09f538a3250fd7b7bd0a0490e9b",
+        "value": "d0c9d09f538a3250fd7b7bd0a0490e9b"
+      },
+      "start_time_millis": "19b73521bc00000001",
+      "end_time": "2025-12-31 07:32:01",
+      "sys_mod_count": "2",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 07:31:59",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/859c141753ca3250fd7b7bd0a0490ef9",
+        "value": "859c141753ca3250fd7b7bd0a0490ef9"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/499c141753ca3250fd7b7bd0a0490ee2",
+        "value": "499c141753ca3250fd7b7bd0a0490ee2"
+      },
+      "parameters": "",
+      "test_name": "Access Request Approval Path",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "success"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/85cc545753ca3250fd7b7bd0a0490e9e",
+        "value": "85cc545753ca3250fd7b7bd0a0490e9e"
+      },
+      "test_description": "",
+      "end_time_millis": "19b7352c2770000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/c1cc945753ca3250fd7b7bd0a0490e53",
+        "value": "c1cc945753ca3250fd7b7bd0a0490e53"
+      },
+      "started_pending_time": "2025-12-31 07:32:39",
+      "sys_updated_on": "2025-12-31 07:32:42",
+      "pending_time": "1970-01-01 00:00:02",
+      "first_failing_step": "",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Test passed",
+      "sys_id": "4dcc945753ca3250fd7b7bd0a0490e54",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 07:32:39",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:01",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/8ec9549f538a3250fd7b7bd0a0490e8e",
+        "value": "8ec9549f538a3250fd7b7bd0a0490e8e"
+      },
+      "start_time_millis": "19b7352c1660000001",
+      "end_time": "2025-12-31 07:32:42",
+      "sys_mod_count": "2",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 07:32:41",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/85cc945753ca3250fd7b7bd0a0490e54",
+        "value": "85cc945753ca3250fd7b7bd0a0490e54"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/38cc945753ca3250fd7b7bd0a0490e3e",
+        "value": "38cc945753ca3250fd7b7bd0a0490e3e"
+      },
+      "parameters": "",
+      "test_name": "Inbound REST Creates Request",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "success"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/9f1294db534a3250fd7b7bd0a0490e6d",
+        "value": "9f1294db534a3250fd7b7bd0a0490e6d"
+      },
+      "test_description": "",
+      "end_time_millis": "19b732826700000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/d71294db534a3250fd7b7bd0a0490eed",
+        "value": "d71294db534a3250fd7b7bd0a0490eed"
+      },
+      "started_pending_time": "2025-12-31 06:46:07",
+      "sys_updated_on": "2025-12-31 06:46:09",
+      "pending_time": "1970-01-01 00:00:01",
+      "first_failing_step": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_result_step/eb1294db534a3250fd7b7bd0a0490eea",
+        "value": "eb1294db534a3250fd7b7bd0a0490eea"
+      },
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "\n\n\nFull logging from step execution:\n22:46:09.355 Loading script: jasmine_lib/jasmine31.js\n22:46:09.433 Successfully loaded jasmine_lib/jasmine31.js\n22:46:09.436 Script compilation error: Script Identifier: sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5, Error Description: invalid return (sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5; line 1), Script ES Level: 0, Interpreted Mode: true\n22:46:09.438 Javascript compiler exception: invalid return (sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5; line 1) in:\nvar assertEqual = function(assertion) {   if (!(assertion.value == assertion.shouldbe)) {     gs.info(\"Assertion failed: \" + assertion.name + \" should have been \" + assertion.shouldbe +            \" but was \" + assertion.value);     throw \"Assertion failed\";   } }; try {   var steps = function(step_id){     return step.sibling(step_id);   };   var item = new GlideRecord('sc_cat_item');item.addQuery('name','Access Request');item.query();if (!item.next()) {stepResult.setOutputMessage('Catalog item...\n Stack trace:\n\n22:46:09.440 invalid return (sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5; line 1): org.mozilla.javascript.EvaluatorException: invalid return (sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5; line 1): \torg.mozilla.javascript.DefaultErrorReporter.runtimeError(DefaultErrorReporter.java:58)\n\torg.mozilla.javascript.DefaultErrorReporter.error(DefaultErrorReporter.java:48)\n\torg.mozilla.javascript.Parser.addError(Parser.java:258)\n\torg.mozilla.javascript.Parser.reportError(Parser.java:333)\n\torg.mozilla.javascript.Parser.reportError(Parser.java:325)\n\torg.mozilla.javascript.Parser.reportError(Parser.java:321)\n\torg.mozilla.javascript.Parser.returnOrYield(Parser.java:2134)\n\torg.mozilla.javascript.Parser.statementHelper(Parser.java:1388)\n\torg.mozilla.javascript.Parser.statement(Parser.java:1277)\n\torg.mozilla.javascript.Parser.statements(Parser.java:1236)\n\torg.mozilla.javascript.Parser.block(Parser.java:2217)\n\torg.mozilla.javascript.Parser.statementHelper(Parser.java:1398)\n\torg.mozilla.javascript.Parser.statement(Parser.java:1277)\n\torg.mozilla.javascript.Parser.getNextStatementAfterInlineComments(Parser.java:1667)\n\torg.mozilla.javascript.Parser.ifStatement(Parser.java:1492)\n\torg.mozilla.javascript.Parser.statementHelper(Parser.java:1334)\n\torg.mozilla.javascript.Parser.statement(Parser.java:1277)\n\torg.mozilla.javascript.Parser.statements(Parser.java:1236)\n\torg.mozilla.javascript.Parser.block(Parser.java:2217)\n\torg.mozilla.javascript.Parser.statementHelper(Parser.java:1398)\n\torg.mozilla.javascript.Parser.statement(Parser.java:1277)\n\torg.mozilla.javascript.Parser.getNextStatementAfterInlineComments(Parser.java:1667)\n\torg.mozilla.javascript.Parser.tryStatement(Parser.java:1848)\n\torg.mozilla.javascript.Parser.statementHelper(Parser.java:1349)\n\torg.mozilla.javascript.Parser.statement(Parser.java:1277)\n\torg.mozilla.javascript.Parser.parse(Parser.java:662)\n\torg.mozilla.javascript.Parser.parse(Parser.java:583)\n\torg.mozilla.javascript.Context.parse(Context.java:3553)\n\torg.mozilla.javascript.Context.compileImpl(Context.java:3429)\n\torg.mozilla.javascript.Context.compileReader(Context.java:2069)\n\tcom.glide.script.InterpretedCompiler.interpret0(InterpretedCompiler.java:110)\n\tcom.glide.script.InterpretedCompiler.compile0(InterpretedCompiler.java:61)\n\tcom.glide.script.InterpretedCompiler.compile0(InterpretedCompiler.java:56)\n\tcom.glide.script.Compiler.compile(Compiler.java:225)\n\tcom.glide.script.InterpretedCompiler.interpret(InterpretedCompiler.java:51)\n\tcom.glide.script.ScriptCompiler.getScript(ScriptCompiler.java:58)\n\tcom.glide.script.ScriptEvaluator.getScript(ScriptEvaluator.java:540)\n\tcom.glide.script.ScriptEvaluator.execute(ScriptEvaluator.java:506)\n\tcom.glide.script.ScriptEvaluator.evaluate(ScriptEvaluator.java:243)\n\tcom.glide.script.fencing.GlideScopedEvaluator.evaluateScript(GlideScopedEvaluator.java:396)\n\tcom.glide.script.fencing.GlideScopedEvaluator.evaluateScript(GlideScopedEvaluator.java:335)\n\tcom.glide.automated_testing_framework.runner.step.JasmineScriptTestRunner.execute(JasmineScriptTestRunner.java:167)\n\tcom.glide.automated_testing_framework.runner.step_environment.AbstractServerStepEnvRunner.lambda$processStep$0(AbstractServerStepEnvRunner.java:209)\n\tcom.glide.rollback.recording.RollbackRecorder.execute(RollbackRecorder.java:67)\n\tcom.glide.automated_testing_framework.util.ATFRollbackUtil.recordOpsInRollbackContext(ATFRollbackUtil.java:81)\n\tcom.glide.automated_testing_framework.runner.step_environment.AbstractServerStepEnvRunner.processStep(AbstractServerStepEnvRunner.java:193)\n\tcom.glide.automated_testing_framework.runner.step_environment.AbstractServerStepEnvRunner.processSteps(AbstractServerStepEnvRunner.java:152)\n\tcom.glide.metadata.tracing.MetadataTracer.executeJob(MetadataTracer.java:342)\n\tcom.glide.metadata.tracing.MetadataTracer.executeWithTrace(MetadataTracer.java:332)\n\tcom.glide.automated_testing_framework.runner.step_environment.AbstractServerStepEnvRunner.execute(AbstractServerStepEnvRunner.java:70)\n\tcom.glide.metadata.tracing.MetadataTracer.executeWithTrace(MetadataTracer.java:329)\n\tcom.glide.automated_testing_framework.worker.TestExecutionWorker.executeTestInOrderByBatch(TestExecutionWorker.java:513)\n\tcom.glide.automated_testing_framework.worker.TestExecutionWorker.execute(TestExecutionWorker.java:344)\n\tcom.glide.automated_testing_framework.worker.TestExecutionWorker.run(TestExecutionWorker.java:1202)\n\tcom.glide.automated_testing_framework.scheduler.ATFSchedulerWorker.runTest(ATFSchedulerWorker.java:163)\n\tcom.glide.automated_testing_framework.scheduler.ATFSchedulerWorker.findAndRunTest(ATFSchedulerWorker.java:120)\n\tcom.glide.automated_testing_framework.scheduler.ATFScheduler.execute(ATFScheduler.java:41)\n\tcom.glide.schedule.JobExecutor.lambda$executeJob$1(JobExecutor.java:216)\n\tcom.snc.db.data_replicate.replicator.DataReplicationAdvisors.runInOriginatorContext(DataReplicationAdvisors.java:74)\n\tcom.glide.schedule.JobExecutor.lambda$inDataReplicationContext$3(JobExecutor.java:246)\n\tcom.glide.schedule.JobExecutor.executeJob(JobExecutor.java:219)\n\tcom.glide.schedule.JobExecutor.execute(JobExecutor.java:195)\n\tcom.glide.schedule.JobExecutor.execute(JobExecutor.java:184)\n\tcom.glide.schedule_v2.SchedulerWorkerThread.executeJob(SchedulerWorkerThread.java:623)\n\tcom.glide.schedule_v2.SchedulerWorkerThread.lambda$process$3(SchedulerWorkerThread.java:409)\n\tcom.glide.worker.TransactionalWorkerThread.executeInTransaction(TransactionalWorkerThread.java:35)\n\tcom.glide.schedule_v2.SchedulerWorkerThread.process(SchedulerWorkerThread.java:409)\n\tcom.glide.schedule_v2.SchedulerWorkerThread.run(SchedulerWorkerThread.java:183)\n\n",
+      "sys_id": "5f1294db534a3250fd7b7bd0a0490eef",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 06:46:07",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:01",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/1e801603538afe10fd7b7bd0a0490e33",
+        "value": "1e801603538afe10fd7b7bd0a0490e33"
+      },
+      "start_time_millis": "19b732822dd0000001",
+      "end_time": "2025-12-31 06:46:09",
+      "sys_mod_count": "3",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 06:46:08",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/9b1294db534a3250fd7b7bd0a0490eee",
+        "value": "9b1294db534a3250fd7b7bd0a0490eee"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/0b1294db534a3250fd7b7bd0a0490e90",
+        "value": "0b1294db534a3250fd7b7bd0a0490e90"
+      },
+      "parameters": "",
+      "test_name": "Catalog Access Request Submission",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "error"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/a2e490d3538a3250fd7b7bd0a0490e82",
+        "value": "a2e490d3538a3250fd7b7bd0a0490e82"
+      },
+      "test_description": "",
+      "end_time_millis": "19b733367930000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/e2e4d0d3538a3250fd7b7bd0a0490e2b",
+        "value": "e2e4d0d3538a3250fd7b7bd0a0490e2b"
+      },
+      "started_pending_time": "2025-12-31 06:58:21",
+      "sys_updated_on": "2025-12-31 06:58:27",
+      "pending_time": "1970-01-01 00:00:06",
+      "first_failing_step": "",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Test passed",
+      "sys_id": "6ee4d0d3538a3250fd7b7bd0a0490e2c",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 06:58:21",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:00",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/4e629647538afe10fd7b7bd0a0490e50",
+        "value": "4e629647538afe10fd7b7bd0a0490e50"
+      },
+      "start_time_millis": "19b733366e70000001",
+      "end_time": "2025-12-31 06:58:27",
+      "sys_mod_count": "2",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 06:58:27",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/a6e4d0d3538a3250fd7b7bd0a0490e2c",
+        "value": "a6e4d0d3538a3250fd7b7bd0a0490e2c"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/6ee490d3538a3250fd7b7bd0a0490ee3",
+        "value": "6ee490d3538a3250fd7b7bd0a0490ee3"
+      },
+      "parameters": "",
+      "test_name": "Record Producer Creates Incident",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "success"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/419c141753ca3250fd7b7bd0a0490e6b",
+        "value": "419c141753ca3250fd7b7bd0a0490e6b"
+      },
+      "test_description": "",
+      "end_time_millis": "19b735212a50000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/099c141753ca3250fd7b7bd0a0490ef0",
+        "value": "099c141753ca3250fd7b7bd0a0490ef0"
+      },
+      "started_pending_time": "2025-12-31 07:31:50",
+      "sys_updated_on": "2025-12-31 07:31:57",
+      "pending_time": "1970-01-01 00:00:06",
+      "first_failing_step": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_result_step/a69c941753ca3250fd7b7bd0a0490ed0",
+        "value": "a69c941753ca3250fd7b7bd0a0490ed0"
+      },
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "\n\n\nFull logging from step execution:\n23:31:56.812 Loading script: jasmine_lib/jasmine31.js\n23:31:56.815 Successfully loaded jasmine_lib/jasmine31.js\n23:31:56.992  \n----- Tests Complete -----\nSpec :: ACL Sanity Checks enforces write ACL on sc_req_item.short_description :: failed\r\n\tExpected false to be true.\r\n\tat:1\n\tat:1\r\n\tExpected false to be true.\r\n\tat:1\n\tat:1\r\n\tExpected false to be true.\r\n\tat:1\n\tat:1\r\nTest results :: (4/7) :: failed\r\n\n",
+      "sys_id": "819c141753ca3250fd7b7bd0a0490ef2",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 07:31:50",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:01",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/c5c9149f538a3250fd7b7bd0a0490ebc",
+        "value": "c5c9149f538a3250fd7b7bd0a0490ebc"
+      },
+      "start_time_millis": "19b735210d80000001",
+      "end_time": "2025-12-31 07:31:57",
+      "sys_mod_count": "3",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 07:31:56",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/c99c141753ca3250fd7b7bd0a0490ef1",
+        "value": "c99c141753ca3250fd7b7bd0a0490ef1"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/499c141753ca3250fd7b7bd0a0490ee2",
+        "value": "499c141753ca3250fd7b7bd0a0490ee2"
+      },
+      "parameters": "",
+      "test_name": "ACL Sanity Checks",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "failure"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/85cc545753ca3250fd7b7bd0a0490e9e",
+        "value": "85cc545753ca3250fd7b7bd0a0490e9e"
+      },
+      "test_description": "",
+      "end_time_millis": "19b7352c4920000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/0dcc945753ca3250fd7b7bd0a0490e55",
+        "value": "0dcc945753ca3250fd7b7bd0a0490e55"
+      },
+      "started_pending_time": "2025-12-31 07:32:39",
+      "sys_updated_on": "2025-12-31 07:32:42",
+      "pending_time": "1970-01-01 00:00:03",
+      "first_failing_step": "",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Test passed",
+      "sys_id": "85cc945753ca3250fd7b7bd0a0490e57",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 07:32:39",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:00",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/a5c9549f538a3250fd7b7bd0a0490e3c",
+        "value": "a5c9549f538a3250fd7b7bd0a0490e3c"
+      },
+      "start_time_millis": "19b7352c3d90000001",
+      "end_time": "2025-12-31 07:32:42",
+      "sys_mod_count": "2",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 07:32:42",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/cdcc945753ca3250fd7b7bd0a0490e56",
+        "value": "cdcc945753ca3250fd7b7bd0a0490e56"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/38cc945753ca3250fd7b7bd0a0490e3e",
+        "value": "38cc945753ca3250fd7b7bd0a0490e3e"
+      },
+      "parameters": "",
+      "test_name": "Outbound REST Failure Handling",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "success"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/44461897538a3250fd7b7bd0a0490e65",
+        "value": "44461897538a3250fd7b7bd0a0490e65"
+      },
+      "test_description": "",
+      "end_time_millis": "19b7338bc380000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/00465897538a3250fd7b7bd0a0490e33",
+        "value": "00465897538a3250fd7b7bd0a0490e33"
+      },
+      "started_pending_time": "2025-12-31 07:04:12",
+      "sys_updated_on": "2025-12-31 07:04:16",
+      "pending_time": "1970-01-01 00:00:04",
+      "first_failing_step": "",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Test passed",
+      "sys_id": "88465897538a3250fd7b7bd0a0490e34",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 07:04:12",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:00",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/ee629647538afe10fd7b7bd0a0490eed",
+        "value": "ee629647538afe10fd7b7bd0a0490eed"
+      },
+      "start_time_millis": "19b7338bb420000001",
+      "end_time": "2025-12-31 07:04:16",
+      "sys_mod_count": "2",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 07:04:16",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/c0465897538a3250fd7b7bd0a0490e34",
+        "value": "c0465897538a3250fd7b7bd0a0490e34"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/00465417538a3250fd7b7bd0a0490e04",
+        "value": "00465417538a3250fd7b7bd0a0490e04"
+      },
+      "parameters": "",
+      "test_name": "Access Request Flow Trigger",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "success"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/9f1294db534a3250fd7b7bd0a0490e6d",
+        "value": "9f1294db534a3250fd7b7bd0a0490e6d"
+      },
+      "test_description": "",
+      "end_time_millis": "19b7328293e0000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/1b1294db534a3250fd7b7bd0a0490ef1",
+        "value": "1b1294db534a3250fd7b7bd0a0490ef1"
+      },
+      "started_pending_time": "2025-12-31 06:46:07",
+      "sys_updated_on": "2025-12-31 06:46:10",
+      "pending_time": "1970-01-01 00:00:03",
+      "first_failing_step": "",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Test passed",
+      "sys_id": "931294db534a3250fd7b7bd0a0490ef3",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 06:46:07",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:00",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/4e629647538afe10fd7b7bd0a0490e50",
+        "value": "4e629647538afe10fd7b7bd0a0490e50"
+      },
+      "start_time_millis": "19b732828480000001",
+      "end_time": "2025-12-31 06:46:10",
+      "sys_mod_count": "2",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 06:46:10",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/db1294db534a3250fd7b7bd0a0490ef2",
+        "value": "db1294db534a3250fd7b7bd0a0490ef2"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/0b1294db534a3250fd7b7bd0a0490e90",
+        "value": "0b1294db534a3250fd7b7bd0a0490e90"
+      },
+      "parameters": "",
+      "test_name": "Record Producer Creates Incident",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "success"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/a2e490d3538a3250fd7b7bd0a0490e82",
+        "value": "a2e490d3538a3250fd7b7bd0a0490e82"
+      },
+      "test_description": "",
+      "end_time_millis": "19b733369520000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/2ee4d0d3538a3250fd7b7bd0a0490e2d",
+        "value": "2ee4d0d3538a3250fd7b7bd0a0490e2d"
+      },
+      "started_pending_time": "2025-12-31 06:58:21",
+      "sys_updated_on": "2025-12-31 06:58:27",
+      "pending_time": "1970-01-01 00:00:06",
+      "first_failing_step": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_result_step/c8f454d3538a3250fd7b7bd0a0490ead",
+        "value": "c8f454d3538a3250fd7b7bd0a0490ead"
+      },
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "\n\n\nFull logging from step execution:\n22:58:27.657 Loading script: jasmine_lib/jasmine31.js\n22:58:27.659 Successfully loaded jasmine_lib/jasmine31.js\n22:58:27.660 Script compilation error: Script Identifier: sys_atf_step.7a629647538afe10fd7b7bd0a0490efb, Error Description: invalid return (sys_atf_step.7a629647538afe10fd7b7bd0a0490efb; line 1), Script ES Level: 0, Interpreted Mode: true\n22:58:27.661 Javascript compiler exception: invalid return (sys_atf_step.7a629647538afe10fd7b7bd0a0490efb; line 1) in:\nvar assertEqual = function(assertion) {   if (!(assertion.value == assertion.shouldbe)) {     gs.info(\"Assertion failed: \" + assertion.name + \" should have been \" + assertion.shouldbe +            \" but was \" + assertion.value);     throw \"Assertion failed\";   } }; try {   var steps = function(step_id){     return step.sibling(step_id);   };   var flow = new GlideRecord('sys_hub_flow');flow.addQuery('name','Access Request Approval');flow.query();if (!flow.next()) {stepResult.setOutputMessage('Fl...\n Stack trace:\n\n22:58:27.662 invalid return (sys_atf_step.7a629647538afe10fd7b7bd0a0490efb; line 1): org.mozilla.javascript.EvaluatorException: invalid return (sys_atf_step.7a629647538afe10fd7b7bd0a0490efb; line 1): \torg.mozilla.javascript.DefaultErrorReporter.runtimeError(DefaultErrorReporter.java:58)\n\torg.mozilla.javascript.DefaultErrorReporter.error(DefaultErrorReporter.java:48)\n\torg.mozilla.javascript.Parser.addError(Parser.java:258)\n\torg.mozilla.javascript.Parser.reportError(Parser.java:333)\n\torg.mozilla.javascript.Parser.reportError(Parser.java:325)\n\torg.mozilla.javascript.Parser.reportError(Parser.java:321)\n\torg.mozilla.javascript.Parser.returnOrYield(Parser.java:2134)\n\torg.mozilla.javascript.Parser.statementHelper(Parser.java:1388)\n\torg.mozilla.javascript.Parser.statement(Parser.java:1277)\n\torg.mozilla.javascript.Parser.statements(Parser.java:1236)\n\torg.mozilla.javascript.Parser.block(Parser.java:2217)\n\torg.mozilla.javascript.Parser.statementHelper(Parser.java:1398)\n\torg.mozilla.javascript.Parser.statement(Parser.java:1277)\n\torg.mozilla.javascript.Parser.getNextStatementAfterInlineComments(Parser.java:1667)\n\torg.mozilla.javascript.Parser.ifStatement(Parser.java:1492)\n\torg.mozilla.javascript.Parser.statementHelper(Parser.java:1334)\n\torg.mozilla.javascript.Parser.statement(Parser.java:1277)\n\torg.mozilla.javascript.Parser.statements(Parser.java:1236)\n\torg.mozilla.javascript.Parser.block(Parser.java:2217)\n\torg.mozilla.javascript.Parser.statementHelper(Parser.java:1398)\n\torg.mozilla.javascript.Parser.statement(Parser.java:1277)\n\torg.mozilla.javascript.Parser.getNextStatementAfterInlineComments(Parser.java:1667)\n\torg.mozilla.javascript.Parser.tryStatement(Parser.java:1848)\n\torg.mozilla.javascript.Parser.statementHelper(Parser.java:1349)\n\torg.mozilla.javascript.Parser.statement(Parser.java:1277)\n\torg.mozilla.javascript.Parser.parse(Parser.java:662)\n\torg.mozilla.javascript.Parser.parse(Parser.java:583)\n\torg.mozilla.javascript.Context.parse(Context.java:3553)\n\torg.mozilla.javascript.Context.compileImpl(Context.java:3429)\n\torg.mozilla.javascript.Context.compileReader(Context.java:2069)\n\tcom.glide.script.InterpretedCompiler.interpret0(InterpretedCompiler.java:110)\n\tcom.glide.script.InterpretedCompiler.compile0(InterpretedCompiler.java:61)\n\tcom.glide.script.InterpretedCompiler.compile0(InterpretedCompiler.java:56)\n\tcom.glide.script.Compiler.compile(Compiler.java:225)\n\tcom.glide.script.InterpretedCompiler.interpret(InterpretedCompiler.java:51)\n\tcom.glide.script.ScriptCompiler.getScript(ScriptCompiler.java:58)\n\tcom.glide.script.ScriptEvaluator.getScript(ScriptEvaluator.java:540)\n\tcom.glide.script.ScriptEvaluator.execute(ScriptEvaluator.java:506)\n\tcom.glide.script.ScriptEvaluator.evaluate(ScriptEvaluator.java:243)\n\tcom.glide.script.fencing.GlideScopedEvaluator.evaluateScript(GlideScopedEvaluator.java:396)\n\tcom.glide.script.fencing.GlideScopedEvaluator.evaluateScript(GlideScopedEvaluator.java:335)\n\tcom.glide.automated_testing_framework.runner.step.JasmineScriptTestRunner.execute(JasmineScriptTestRunner.java:167)\n\tcom.glide.automated_testing_framework.runner.step_environment.AbstractServerStepEnvRunner.lambda$processStep$0(AbstractServerStepEnvRunner.java:209)\n\tcom.glide.rollback.recording.RollbackRecorder.execute(RollbackRecorder.java:67)\n\tcom.glide.automated_testing_framework.util.ATFRollbackUtil.recordOpsInRollbackContext(ATFRollbackUtil.java:81)\n\tcom.glide.automated_testing_framework.runner.step_environment.AbstractServerStepEnvRunner.processStep(AbstractServerStepEnvRunner.java:193)\n\tcom.glide.automated_testing_framework.runner.step_environment.AbstractServerStepEnvRunner.processSteps(AbstractServerStepEnvRunner.java:152)\n\tcom.glide.metadata.tracing.MetadataTracer.executeJob(MetadataTracer.java:342)\n\tcom.glide.metadata.tracing.MetadataTracer.executeWithTrace(MetadataTracer.java:332)\n\tcom.glide.automated_testing_framework.runner.step_environment.AbstractServerStepEnvRunner.execute(AbstractServerStepEnvRunner.java:70)\n\tcom.glide.metadata.tracing.MetadataTracer.executeWithTrace(MetadataTracer.java:329)\n\tcom.glide.automated_testing_framework.worker.TestExecutionWorker.executeTestInOrderByBatch(TestExecutionWorker.java:513)\n\tcom.glide.automated_testing_framework.worker.TestExecutionWorker.execute(TestExecutionWorker.java:344)\n\tcom.glide.automated_testing_framework.worker.TestExecutionWorker.run(TestExecutionWorker.java:1202)\n\tcom.glide.automated_testing_framework.scheduler.ATFSchedulerWorker.runTest(ATFSchedulerWorker.java:163)\n\tcom.glide.automated_testing_framework.scheduler.ATFSchedulerWorker.findAndRunTest(ATFSchedulerWorker.java:120)\n\tcom.glide.automated_testing_framework.scheduler.ATFScheduler.execute(ATFScheduler.java:41)\n\tcom.glide.schedule.JobExecutor.lambda$executeJob$1(JobExecutor.java:216)\n\tcom.snc.db.data_replicate.replicator.DataReplicationAdvisors.runInOriginatorContext(DataReplicationAdvisors.java:74)\n\tcom.glide.schedule.JobExecutor.lambda$inDataReplicationContext$3(JobExecutor.java:246)\n\tcom.glide.schedule.JobExecutor.executeJob(JobExecutor.java:219)\n\tcom.glide.schedule.JobExecutor.execute(JobExecutor.java:195)\n\tcom.glide.schedule.JobExecutor.execute(JobExecutor.java:184)\n\tcom.glide.schedule_v2.SchedulerWorkerThread.executeJob(SchedulerWorkerThread.java:623)\n\tcom.glide.schedule_v2.SchedulerWorkerThread.lambda$process$3(SchedulerWorkerThread.java:409)\n\tcom.glide.worker.TransactionalWorkerThread.executeInTransaction(TransactionalWorkerThread.java:35)\n\tcom.glide.schedule_v2.SchedulerWorkerThread.process(SchedulerWorkerThread.java:409)\n\tcom.glide.schedule_v2.SchedulerWorkerThread.run(SchedulerWorkerThread.java:183)\n\n",
+      "sys_id": "a6e4d0d3538a3250fd7b7bd0a0490e2f",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 06:58:21",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:00",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/ee629647538afe10fd7b7bd0a0490eed",
+        "value": "ee629647538afe10fd7b7bd0a0490eed"
+      },
+      "start_time_millis": "19b733368960000001",
+      "end_time": "2025-12-31 06:58:27",
+      "sys_mod_count": "3",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 06:58:27",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/eee4d0d3538a3250fd7b7bd0a0490e2e",
+        "value": "eee4d0d3538a3250fd7b7bd0a0490e2e"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/6ee490d3538a3250fd7b7bd0a0490ee3",
+        "value": "6ee490d3538a3250fd7b7bd0a0490ee3"
+      },
+      "parameters": "",
+      "test_name": "Access Request Flow Trigger",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "error"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/419c141753ca3250fd7b7bd0a0490e6b",
+        "value": "419c141753ca3250fd7b7bd0a0490e6b"
+      },
+      "test_description": "",
+      "end_time_millis": "19b735216510000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/419c141753ca3250fd7b7bd0a0490ef3",
+        "value": "419c141753ca3250fd7b7bd0a0490ef3"
+      },
+      "started_pending_time": "2025-12-31 07:31:50",
+      "sys_updated_on": "2025-12-31 07:31:58",
+      "pending_time": "1970-01-01 00:00:07",
+      "first_failing_step": "",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Test passed",
+      "sys_id": "c99c141753ca3250fd7b7bd0a0490ef4",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 07:31:50",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:01",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/4e629647538afe10fd7b7bd0a0490e50",
+        "value": "4e629647538afe10fd7b7bd0a0490e50"
+      },
+      "start_time_millis": "19b735213690000001",
+      "end_time": "2025-12-31 07:31:58",
+      "sys_mod_count": "2",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 07:31:57",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/059c141753ca3250fd7b7bd0a0490ef4",
+        "value": "059c141753ca3250fd7b7bd0a0490ef4"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/499c141753ca3250fd7b7bd0a0490ee2",
+        "value": "499c141753ca3250fd7b7bd0a0490ee2"
+      },
+      "parameters": "",
+      "test_name": "Record Producer Creates Incident",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "success"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/85cc545753ca3250fd7b7bd0a0490e9e",
+        "value": "85cc545753ca3250fd7b7bd0a0490e9e"
+      },
+      "test_description": "",
+      "end_time_millis": "19b7352c6a00000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/45cc945753ca3250fd7b7bd0a0490e58",
+        "value": "45cc945753ca3250fd7b7bd0a0490e58"
+      },
+      "started_pending_time": "2025-12-31 07:32:39",
+      "sys_updated_on": "2025-12-31 07:32:43",
+      "pending_time": "1970-01-01 00:00:03",
+      "first_failing_step": "",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Test passed",
+      "sys_id": "cdcc945753ca3250fd7b7bd0a0490e59",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 07:32:39",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:01",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/be62d647538afe10fd7b7bd0a0490e33",
+        "value": "be62d647538afe10fd7b7bd0a0490e33"
+      },
+      "start_time_millis": "19b7352c5730000001",
+      "end_time": "2025-12-31 07:32:43",
+      "sys_mod_count": "2",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 07:32:42",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/09cc945753ca3250fd7b7bd0a0490e59",
+        "value": "09cc945753ca3250fd7b7bd0a0490e59"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/38cc945753ca3250fd7b7bd0a0490e3e",
+        "value": "38cc945753ca3250fd7b7bd0a0490e3e"
+      },
+      "parameters": "",
+      "test_name": "Outbound REST Logged",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "success"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/0e93dcdf534a3250fd7b7bd0a0490eda",
+        "value": "0e93dcdf534a3250fd7b7bd0a0490eda"
+      },
+      "test_description": "",
+      "end_time_millis": "19b732e22720000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/4693dcdf534a3250fd7b7bd0a0490edc",
+        "value": "4693dcdf534a3250fd7b7bd0a0490edc"
+      },
+      "started_pending_time": "2025-12-31 06:52:35",
+      "sys_updated_on": "2025-12-31 06:52:41",
+      "pending_time": "1970-01-01 00:00:02",
+      "first_failing_step": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_result_step/a2931013538a3250fd7b7bd0a0490e1f",
+        "value": "a2931013538a3250fd7b7bd0a0490e1f"
+      },
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Request not created\n\n\nFull logging from step execution:\n22:52:37.182 Loading script: jasmine_lib/jasmine31.js\n22:52:37.396 Successfully loaded jasmine_lib/jasmine31.js\n22:52:37.607 [CatalogItem] Catalog Item Cache Created: e180d203538afe10fd7b7bd0a0490e6f\n22:52:37.704 Translation MetaData: table=sc_cat_item, hierarchy=[sc_cat_item_wizard, sc_cat_item_producer, sc_cat_item_guide, pc_product_cat_item, pc_software_cat_item, pc_hardware_cat_item, sys_metadata, sc_cat_item_service, sc_cat_item_composite_producer, sc_cat_item, std_change_record_producer, sc_cat_item_content], translatedFields=[short_description, description, name]\n22:52:37.704 [DefaultTranslationProvider] Loading translations for: table=sc_cat_item, id=e180d203538afe10fd7b7bd0a0490e6f, language=en, source=sc_cat_item\n22:52:37.706 [DefaultTranslationProvider] Loaded translations for: table=sc_cat_item, id=e180d203538afe10fd7b7bd0a0490e6f, language=en, source=sc_cat_item, size=3\n22:52:38.679 notification.provider: For Synchronous Providers: Loaded 1 recipients and 2 destinations and delivered to 1 destinations in 229ms\n22:52:38.772 notification.provider: For Synchronous Providers: Loaded 1 recipients and 2 destinations and delivered to 1 destinations in 29ms\n22:52:38.789 Slow business rule 'Create Request Item Child Tasks' on sc_req_item:<span class = \"session-log-bold-text\"> RITM0010001</span>, time was: 0:00:00.581\n22:52:38.861  [DEBUG] APPROVAL = not requested CHANGES = true\n22:52:38.861  [DEBUG] CURRENT STAGE = requested\n22:52:38.861  [DEBUG] DESIRED = requested\n22:52:38.929 notification.provider: For Synchronous Providers: Recipient 6816f79cc0a8016401c5a33be04be441 excluded from the recipient list because 'Is originating user included' is unchecked\n22:52:38.931 notification.provider: For Synchronous Providers: Recipient 6816f79cc0a8016401c5a33be04be441 excluded from the recipient list because 'Is originating user included' is unchecked\n22:52:38.934 notification.provider: For Synchronous Providers: Loaded 0 recipients and 0 destinations and delivered to 0 destinations in 7ms\n22:52:38.975 Complex type redefined: FlowDesigner:FDCollection\n22:52:39.135 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:52:39.137 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:52:39.209 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:52:39.211 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:52:39.239 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:52:39.240 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:52:39.479 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:52:39.480 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:52:39.482 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:52:39.483 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:52:39.636 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:52:39.637 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:52:39.787 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:52:39.789 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:52:39.791 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:52:39.792 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:52:39.797 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:52:39.798 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:52:39.799 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:52:39.800 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:52:39.804 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:52:39.805 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:52:39.806 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:52:39.807 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:52:39.811 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:52:39.812 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:52:40.90 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:52:40.93 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:52:40.96 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:52:40.99 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:52:40.177 Flow Designer: Begin creating Action \"Update Record\" (sys id 26c36d9f9fd11210db9f618dfa0a1c13) with order number 1 in flow and UUID 9b5e4651-fcdf-4cee-9d6e-dbee36b8a96d\n22:52:40.177 Flow Designer: Begin creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with step number 1 of Action \"Update Record\" (sys id 26c36d9f9fd11210db9f618dfa0a1c13) with order number 1 in flow and UUID 9b5e4651-fcdf-4cee-9d6e-dbee36b8a96d\n22:52:40.180 Flow Designer: Finished creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with an input count of 3, a core output count of 3, and an extended output count of 0 as step number 1 of Action \"Update Record\" with order number 1 in flow and UUID 9b5e4651-fcdf-4cee-9d6e-dbee36b8a96d\n22:52:40.180 Flow Designer: Finished creating Action \"Update Record\" (sys id 26c36d9f9fd11210db9f618dfa0a1c13) with an input count of 3 an output count of 4 with order number 1 in flow and UUID 9b5e4651-fcdf-4cee-9d6e-dbee36b8a96d\n22:52:40.198 Flow Designer: Begin creating Action \"Update Record\" (sys id 9e6c6d5b9f151210db9f618dfa0a1cb1) with order number 4 in flow and UUID 91a8cd00-953e-4589-ad72-dcb20b33c79b\n22:52:40.198 Flow Designer: Begin creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with step number 1 of Action \"Update Record\" (sys id 9e6c6d5b9f151210db9f618dfa0a1cb1) with order number 4 in flow and UUID 91a8cd00-953e-4589-ad72-dcb20b33c79b\n22:52:40.198 Flow Designer: Finished creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with an input count of 3, a core output count of 3, and an extended output count of 0 as step number 1 of Action \"Update Record\" with order number 4 in flow and UUID 91a8cd00-953e-4589-ad72-dcb20b33c79b\n22:52:40.198 Flow Designer: Finished creating Action \"Update Record\" (sys id 9e6c6d5b9f151210db9f618dfa0a1cb1) with an input count of 3 an output count of 4 with order number 4 in flow and UUID 91a8cd00-953e-4589-ad72-dcb20b33c79b\n22:52:40.199 Flow Designer: Begin creating Action \"Update Record\" (sys id 966c6d5b9f151210db9f618dfa0a1cb2) with order number 7 in flow and UUID 632be00a-d87b-4d0e-8c5e-4bf3623bb6e6\n22:52:40.199 Flow Designer: Begin creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with step number 1 of Action \"Update Record\" (sys id 966c6d5b9f151210db9f618dfa0a1cb2) with order number 7 in flow and UUID 632be00a-d87b-4d0e-8c5e-4bf3623bb6e6\n22:52:40.199 Flow Designer: Finished creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with an input count of 3, a core output count of 3, and an extended output count of 0 as step number 1 of Action \"Update Record\" with order number 7 in flow and UUID 632be00a-d87b-4d0e-8c5e-4bf3623bb6e6\n22:52:40.199 Flow Designer: Finished creating Action \"Update Record\" (sys id 966c6d5b9f151210db9f618dfa0a1cb2) with an input count of 3 an output count of 4 with order number 7 in flow and UUID 632be00a-d87b-4d0e-8c5e-4bf3623bb6e6\n22:52:40.210 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:52:40.211 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:52:40.318 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:52:40.319 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:52:40.446 Script execution error: Script Identifier: sys_script_include.ded607e693a11210f2cafff9648918c0, Error Description: \"FlowRecommendationsSkillCheck\" is not defined., Script ES Level: 0\n22:52:40.448 Evaluator: com.glide.script.RhinoEcmaError: \"FlowRecommendationsSkillCheck\" is not defined.\n   sys_script_include.ded607e693a11210f2cafff9648918c0 : Line(2) column(0)\n      1: \n==>   2: FlowRecommendationsSkillCheck.isFlowRecommendationsSkillActive();\n Stack trace:\n\tat sys_script_include.ded607e693a11210f2cafff9648918c0:2\n\tat sys_script_include.340b86140a0a0aa700d9f0aea1fb399a.script:95\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\tat sys_atf_step.2571d283538afe10fd7b7bd0a0490ee5:1\n\n22:52:40.555 Flow Designer: actionSysId/aliasOverride null or empty\n22:52:40.567 Flow Designer: actionSysId/aliasOverride null or empty\n22:52:40.579 Flow Designer: actionSysId/aliasOverride null or empty\n22:52:40.774 [CacheFlushLog] event=sys_hub_flow, count=1, ms=3640: Flushing catalog sys_hub_flow\n22:52:40.828 Flow Designer: Begin creating Action \"Update Record\" (sys id 26c36d9f9fd11210db9f618dfa0a1c13) with order number 1 in flow and UUID 9b5e4651-fcdf-4cee-9d6e-dbee36b8a96d\n22:52:40.828 Flow Designer: Begin creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with step number 1 of Action \"Update Record\" (sys id 26c36d9f9fd11210db9f618dfa0a1c13) with order number 1 in flow and UUID 9b5e4651-fcdf-4cee-9d6e-dbee36b8a96d\n22:52:40.828 Flow Designer: Finished creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with an input count of 3, a core output count of 3, and an extended output count of 0 as step number 1 of Action \"Update Record\" with order number 1 in flow and UUID 9b5e4651-fcdf-4cee-9d6e-dbee36b8a96d\n22:52:40.828 Flow Designer: Finished creating Action \"Update Record\" (sys id 26c36d9f9fd11210db9f618dfa0a1c13) with an input count of 3 an output count of 4 with order number 1 in flow and UUID 9b5e4651-fcdf-4cee-9d6e-dbee36b8a96d\n22:52:40.829 Flow Designer: Begin creating Action \"Update Record\" (sys id 9e6c6d5b9f151210db9f618dfa0a1cb1) with order number 4 in flow and UUID 91a8cd00-953e-4589-ad72-dcb20b33c79b\n22:52:40.829 Flow Designer: Begin creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with step number 1 of Action \"Update Record\" (sys id 9e6c6d5b9f151210db9f618dfa0a1cb1) with order number 4 in flow and UUID 91a8cd00-953e-4589-ad72-dcb20b33c79b\n22:52:40.830 Flow Designer: Finished creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with an input count of 3, a core output count of 3, and an extended output count of 0 as step number 1 of Action \"Update Record\" with order number 4 in flow and UUID 91a8cd00-953e-4589-ad72-dcb20b33c79b\n22:52:40.830 Flow Designer: Finished creating Action \"Update Record\" (sys id 9e6c6d5b9f151210db9f618dfa0a1cb1) with an input count of 3 an output count of 4 with order number 4 in flow and UUID 91a8cd00-953e-4589-ad72-dcb20b33c79b\n22:52:40.830 Flow Designer: Begin creating Action \"Update Record\" (sys id 966c6d5b9f151210db9f618dfa0a1cb2) with order number 7 in flow and UUID 632be00a-d87b-4d0e-8c5e-4bf3623bb6e6\n22:52:40.830 Flow Designer: Begin creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with step number 1 of Action \"Update Record\" (sys id 966c6d5b9f151210db9f618dfa0a1cb2) with order number 7 in flow and UUID 632be00a-d87b-4d0e-8c5e-4bf3623bb6e6\n22:52:40.831 Flow Designer: Finished creating Step \"Update Record\" (sys id 5ad05916c31332002841b63b12d3ae63) with an input count of 3, a core output count of 3, and an extended output count of 0 as step number 1 of Action \"Update Record\" with order number 7 in flow and UUID 632be00a-d87b-4d0e-8c5e-4bf3623bb6e6\n22:52:40.831 Flow Designer: Finished creating Action \"Update Record\" (sys id 966c6d5b9f151210db9f618dfa0a1cb2) with an input count of 3 an output count of 4 with order number 7 in flow and UUID 632be00a-d87b-4d0e-8c5e-4bf3623bb6e6\n22:52:40.865 [CacheFlushLog] event=metacache_system_wide, count=1, ms=91: Flushing catalog metacache_system_wide\n22:52:40.865 [CacheFlushLog] event=syscache_tabledescriptor, count=1, ms=0: Flushing catalog syscache_tabledescriptor\n22:52:40.866 [CacheFlushLog] event=syscache_sizeclass, count=1, ms=1: Flushing catalog syscache_sizeclass\n22:52:40.867 [CacheFlushLog] event=dbi_table_exists, count=1, ms=1: Flushing catalog dbi_table_exists\n22:52:40.868 [CacheFlushLog] event=DBNamesChecker, count=1, ms=1: Flushing catalog DBNamesChecker\n22:52:40.868 [CacheFlushLog] event=DBViewNamesChecker, count=1, ms=0: Flushing catalog DBViewNamesChecker\n22:52:40.869 [CacheFlushLog] event=DBNamesChecker_KnownMissing, count=1, ms=1: Flushing catalog DBNamesChecker_KnownMissing\n22:52:40.954 Altering storage table [sh$sys_flow_trigger_plan_chunk]: ALTER TABLE sh$sys_flow_trigger_plan_chunk ADD `sh$context` VARCHAR(32), ADD `sh$operation` VARCHAR(40), ADD `sh$change_count` INTEGER, ADD `sh$first_recorded` DATETIME, ADD `sh$last_recorded` DATETIME, ADD `sh$sequence` VARCHAR(40), ADD `sh$first_txn_id` VARCHAR(32), ADD INDEX `khloqumf_source_primary`(`sys_id`) \n22:52:40.957 [CacheFlushLog] event=column_metadata_cache, count=1, ms=88: Flushing catalog column_metadata_cache\n22:52:40.958 [CacheFlushLog] event=syscache_storagemetadata, count=1, ms=1: Flushing catalog syscache_storagemetadata\n22:52:41.109  Begin ResourceSupport.buildTableResources(sh$sys_flow_trigger_plan_chunk, undefined)\n22:52:41.110  End ResourceSupport.buildTableResources\n22:52:41.233 Queued flow.fire event in NowMQ for sys_flow_context.sys_id: fe935013148a3250e35ed4d5e17e0a30, sysevent.sys_id: 2f939013538a3250fd7b7bd0a0490e24, priority 5, cached: true\n22:52:41.257 Not releasing expired mutex dd6dad02531530100f29ddeeff7b122966931013538a3250fd7b7bd0a0490ea1 acquired at null last touched at null\n22:52:41.258 TriggerEngine:runEngine took 2.318ms to process for 'insert' operation on the record sc_request[66931013538a3250fd7b7bd0a0490ea1]\n",
+      "sys_id": "ce93dcdf534a3250fd7b7bd0a0490edd",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 06:52:35",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:04",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/1e801603538afe10fd7b7bd0a0490e33",
+        "value": "1e801603538afe10fd7b7bd0a0490e33"
+      },
+      "start_time_millis": "19b732e0f7e0000001",
+      "end_time": "2025-12-31 06:52:41",
+      "sys_mod_count": "3",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 06:52:37",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/0a93dcdf534a3250fd7b7bd0a0490edd",
+        "value": "0a93dcdf534a3250fd7b7bd0a0490edd"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/ce93dcdf534a3250fd7b7bd0a0490eb4",
+        "value": "ce93dcdf534a3250fd7b7bd0a0490eb4"
+      },
+      "parameters": "",
+      "test_name": "Catalog Access Request Submission",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "failure"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/9f1294db534a3250fd7b7bd0a0490e6d",
+        "value": "9f1294db534a3250fd7b7bd0a0490e6d"
+      },
+      "test_description": "",
+      "end_time_millis": "19b73282bf00000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/531294db534a3250fd7b7bd0a0490ef4",
+        "value": "531294db534a3250fd7b7bd0a0490ef4"
+      },
+      "started_pending_time": "2025-12-31 06:46:07",
+      "sys_updated_on": "2025-12-31 06:46:11",
+      "pending_time": "1970-01-01 00:00:03",
+      "first_failing_step": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_result_step/4422d4db534a3250fd7b7bd0a0490ee7",
+        "value": "4422d4db534a3250fd7b7bd0a0490ee7"
+      },
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "\n\n\nFull logging from step execution:\n22:46:10.956 Loading script: jasmine_lib/jasmine31.js\n22:46:10.958 Successfully loaded jasmine_lib/jasmine31.js\n22:46:10.960 Script compilation error: Script Identifier: sys_atf_step.7a629647538afe10fd7b7bd0a0490efb, Error Description: invalid return (sys_atf_step.7a629647538afe10fd7b7bd0a0490efb; line 1), Script ES Level: 0, Interpreted Mode: true\n22:46:10.960 Javascript compiler exception: invalid return (sys_atf_step.7a629647538afe10fd7b7bd0a0490efb; line 1) in:\nvar assertEqual = function(assertion) {   if (!(assertion.value == assertion.shouldbe)) {     gs.info(\"Assertion failed: \" + assertion.name + \" should have been \" + assertion.shouldbe +            \" but was \" + assertion.value);     throw \"Assertion failed\";   } }; try {   var steps = function(step_id){     return step.sibling(step_id);   };   var flow = new GlideRecord('sys_hub_flow');flow.addQuery('name','Access Request Approval');flow.query();if (!flow.next()) {stepResult.setOutputMessage('Fl...\n Stack trace:\n\n22:46:10.961 invalid return (sys_atf_step.7a629647538afe10fd7b7bd0a0490efb; line 1): org.mozilla.javascript.EvaluatorException: invalid return (sys_atf_step.7a629647538afe10fd7b7bd0a0490efb; line 1): \torg.mozilla.javascript.DefaultErrorReporter.runtimeError(DefaultErrorReporter.java:58)\n\torg.mozilla.javascript.DefaultErrorReporter.error(DefaultErrorReporter.java:48)\n\torg.mozilla.javascript.Parser.addError(Parser.java:258)\n\torg.mozilla.javascript.Parser.reportError(Parser.java:333)\n\torg.mozilla.javascript.Parser.reportError(Parser.java:325)\n\torg.mozilla.javascript.Parser.reportError(Parser.java:321)\n\torg.mozilla.javascript.Parser.returnOrYield(Parser.java:2134)\n\torg.mozilla.javascript.Parser.statementHelper(Parser.java:1388)\n\torg.mozilla.javascript.Parser.statement(Parser.java:1277)\n\torg.mozilla.javascript.Parser.statements(Parser.java:1236)\n\torg.mozilla.javascript.Parser.block(Parser.java:2217)\n\torg.mozilla.javascript.Parser.statementHelper(Parser.java:1398)\n\torg.mozilla.javascript.Parser.statement(Parser.java:1277)\n\torg.mozilla.javascript.Parser.getNextStatementAfterInlineComments(Parser.java:1667)\n\torg.mozilla.javascript.Parser.ifStatement(Parser.java:1492)\n\torg.mozilla.javascript.Parser.statementHelper(Parser.java:1334)\n\torg.mozilla.javascript.Parser.statement(Parser.java:1277)\n\torg.mozilla.javascript.Parser.statements(Parser.java:1236)\n\torg.mozilla.javascript.Parser.block(Parser.java:2217)\n\torg.mozilla.javascript.Parser.statementHelper(Parser.java:1398)\n\torg.mozilla.javascript.Parser.statement(Parser.java:1277)\n\torg.mozilla.javascript.Parser.getNextStatementAfterInlineComments(Parser.java:1667)\n\torg.mozilla.javascript.Parser.tryStatement(Parser.java:1848)\n\torg.mozilla.javascript.Parser.statementHelper(Parser.java:1349)\n\torg.mozilla.javascript.Parser.statement(Parser.java:1277)\n\torg.mozilla.javascript.Parser.parse(Parser.java:662)\n\torg.mozilla.javascript.Parser.parse(Parser.java:583)\n\torg.mozilla.javascript.Context.parse(Context.java:3553)\n\torg.mozilla.javascript.Context.compileImpl(Context.java:3429)\n\torg.mozilla.javascript.Context.compileReader(Context.java:2069)\n\tcom.glide.script.InterpretedCompiler.interpret0(InterpretedCompiler.java:110)\n\tcom.glide.script.InterpretedCompiler.compile0(InterpretedCompiler.java:61)\n\tcom.glide.script.InterpretedCompiler.compile0(InterpretedCompiler.java:56)\n\tcom.glide.script.Compiler.compile(Compiler.java:225)\n\tcom.glide.script.InterpretedCompiler.interpret(InterpretedCompiler.java:51)\n\tcom.glide.script.ScriptCompiler.getScript(ScriptCompiler.java:58)\n\tcom.glide.script.ScriptEvaluator.getScript(ScriptEvaluator.java:540)\n\tcom.glide.script.ScriptEvaluator.execute(ScriptEvaluator.java:506)\n\tcom.glide.script.ScriptEvaluator.evaluate(ScriptEvaluator.java:243)\n\tcom.glide.script.fencing.GlideScopedEvaluator.evaluateScript(GlideScopedEvaluator.java:396)\n\tcom.glide.script.fencing.GlideScopedEvaluator.evaluateScript(GlideScopedEvaluator.java:335)\n\tcom.glide.automated_testing_framework.runner.step.JasmineScriptTestRunner.execute(JasmineScriptTestRunner.java:167)\n\tcom.glide.automated_testing_framework.runner.step_environment.AbstractServerStepEnvRunner.lambda$processStep$0(AbstractServerStepEnvRunner.java:209)\n\tcom.glide.rollback.recording.RollbackRecorder.execute(RollbackRecorder.java:67)\n\tcom.glide.automated_testing_framework.util.ATFRollbackUtil.recordOpsInRollbackContext(ATFRollbackUtil.java:81)\n\tcom.glide.automated_testing_framework.runner.step_environment.AbstractServerStepEnvRunner.processStep(AbstractServerStepEnvRunner.java:193)\n\tcom.glide.automated_testing_framework.runner.step_environment.AbstractServerStepEnvRunner.processSteps(AbstractServerStepEnvRunner.java:152)\n\tcom.glide.metadata.tracing.MetadataTracer.executeJob(MetadataTracer.java:342)\n\tcom.glide.metadata.tracing.MetadataTracer.executeWithTrace(MetadataTracer.java:332)\n\tcom.glide.automated_testing_framework.runner.step_environment.AbstractServerStepEnvRunner.execute(AbstractServerStepEnvRunner.java:70)\n\tcom.glide.metadata.tracing.MetadataTracer.executeWithTrace(MetadataTracer.java:329)\n\tcom.glide.automated_testing_framework.worker.TestExecutionWorker.executeTestInOrderByBatch(TestExecutionWorker.java:513)\n\tcom.glide.automated_testing_framework.worker.TestExecutionWorker.execute(TestExecutionWorker.java:344)\n\tcom.glide.automated_testing_framework.worker.TestExecutionWorker.run(TestExecutionWorker.java:1202)\n\tcom.glide.automated_testing_framework.scheduler.ATFSchedulerWorker.runTest(ATFSchedulerWorker.java:163)\n\tcom.glide.automated_testing_framework.scheduler.ATFSchedulerWorker.findAndRunTest(ATFSchedulerWorker.java:120)\n\tcom.glide.automated_testing_framework.scheduler.ATFScheduler.execute(ATFScheduler.java:41)\n\tcom.glide.schedule.JobExecutor.lambda$executeJob$1(JobExecutor.java:216)\n\tcom.snc.db.data_replicate.replicator.DataReplicationAdvisors.runInOriginatorContext(DataReplicationAdvisors.java:74)\n\tcom.glide.schedule.JobExecutor.lambda$inDataReplicationContext$3(JobExecutor.java:246)\n\tcom.glide.schedule.JobExecutor.executeJob(JobExecutor.java:219)\n\tcom.glide.schedule.JobExecutor.execute(JobExecutor.java:195)\n\tcom.glide.schedule.JobExecutor.execute(JobExecutor.java:184)\n\tcom.glide.schedule_v2.SchedulerWorkerThread.executeJob(SchedulerWorkerThread.java:623)\n\tcom.glide.schedule_v2.SchedulerWorkerThread.lambda$process$3(SchedulerWorkerThread.java:409)\n\tcom.glide.worker.TransactionalWorkerThread.executeInTransaction(TransactionalWorkerThread.java:35)\n\tcom.glide.schedule_v2.SchedulerWorkerThread.process(SchedulerWorkerThread.java:409)\n\tcom.glide.schedule_v2.SchedulerWorkerThread.run(SchedulerWorkerThread.java:183)\n\n",
+      "sys_id": "db1294db534a3250fd7b7bd0a0490ef5",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 06:46:07",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:01",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/ee629647538afe10fd7b7bd0a0490eed",
+        "value": "ee629647538afe10fd7b7bd0a0490eed"
+      },
+      "start_time_millis": "19b73282ac00000001",
+      "end_time": "2025-12-31 06:46:11",
+      "sys_mod_count": "3",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 06:46:10",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/171294db534a3250fd7b7bd0a0490ef5",
+        "value": "171294db534a3250fd7b7bd0a0490ef5"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/0b1294db534a3250fd7b7bd0a0490e90",
+        "value": "0b1294db534a3250fd7b7bd0a0490e90"
+      },
+      "parameters": "",
+      "test_name": "Access Request Flow Trigger",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "error"
+    }
+  ]
+}

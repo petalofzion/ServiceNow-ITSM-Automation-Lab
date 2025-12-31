@@ -9,7 +9,11 @@ build:
 
 test:
 	@echo "Running ATF suites..."
-	python3 scripts/sn_run_atf.py
+	python3 scripts/sn_bootstrap_atf_tests.py
+	python3 scripts/sn_ensure_atf_suites.py
+	python3 scripts/sn_run_atf.py --suite "$(SUITE)"
+
+SUITE ?= Smoke
 
 export:
 	@echo "Exporting artifacts and capturing evidence..."

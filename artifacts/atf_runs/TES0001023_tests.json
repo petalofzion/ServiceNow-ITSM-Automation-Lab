@@ -1,0 +1,376 @@
+{
+  "result": [
+    {
+      "abort_on_failure": "false",
+      "continue_test": "false",
+      "end_time": "2025-12-31 17:30:56",
+      "end_time_millis": "19b7576757f0000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/afa56697530e7250fd7b7bd0a0490eae",
+        "value": "afa56697530e7250fd7b7bd0a0490eae"
+      },
+      "first_failing_client_error": "",
+      "first_failing_step": "",
+      "first_failing_step_screenshot": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "message_reference": "d50af3f6821e6e401fa81671e3aa5c4a",
+      "output": "Test passed",
+      "parameter_set_run": "",
+      "parameter_test_result": "",
+      "parameters": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/6ba56697530e7250fd7b7bd0a0490ead",
+        "value": "6ba56697530e7250fd7b7bd0a0490ead"
+      },
+      "pause_time_left": "",
+      "pending_time": "1970-01-01 00:00:01",
+      "pin": "false",
+      "previous_test_result": "",
+      "retrieved_components": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/63a56697530e7250fd7b7bd0a0490eb0",
+        "value": "63a56697530e7250fd7b7bd0a0490eb0"
+      },
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/6ba56697530e7250fd7b7bd0a0490e2b",
+        "value": "6ba56697530e7250fd7b7bd0a0490e2b"
+      },
+      "run_time": "1970-01-01 00:00:04",
+      "session_id": "",
+      "start_time": "2025-12-31 17:30:52",
+      "start_time_millis": "19b757667800000001",
+      "started_pending_time": "2025-12-31 17:30:51",
+      "status": "success",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "sys_created_by": "admin",
+      "sys_created_on": "2025-12-31 17:30:51",
+      "sys_id": "2ba56697530e7250fd7b7bd0a0490eb0",
+      "sys_mod_count": "2",
+      "sys_tags": "",
+      "sys_updated_by": "admin",
+      "sys_updated_on": "2025-12-31 17:30:56",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/3cc9149f538a3250fd7b7bd0a0490e4f",
+        "value": "3cc9149f538a3250fd7b7bd0a0490e4f"
+      },
+      "test_case_json": "",
+      "test_description": "",
+      "test_name": "Smoke Logging and Script Includes",
+      "test_result_json": "",
+      "user_agents": ""
+    },
+    {
+      "abort_on_failure": "false",
+      "continue_test": "false",
+      "end_time": "2025-12-31 17:31:37",
+      "end_time_millis": "19b7577181e0000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/a3a56697530e7250fd7b7bd0a0490eb4",
+        "value": "a3a56697530e7250fd7b7bd0a0490eb4"
+      },
+      "first_failing_client_error": "",
+      "first_failing_step": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_result_step/a9b5e697530e7250fd7b7bd0a0490ecc",
+        "value": "a9b5e697530e7250fd7b7bd0a0490ecc"
+      },
+      "first_failing_step_screenshot": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_attachment/eed522d7530e7250fd7b7bd0a0490e0d",
+        "value": "eed522d7530e7250fd7b7bd0a0490e0d"
+      },
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "message_reference": "d50af3f6821e6e401fa81671e3aa5c4a",
+      "output": "FAILURE: Unable to check if field 'u_plego_protected' is read only. That field is not present on the form",
+      "parameter_set_run": "",
+      "parameter_test_result": "",
+      "parameters": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/6ba56697530e7250fd7b7bd0a0490ead",
+        "value": "6ba56697530e7250fd7b7bd0a0490ead"
+      },
+      "pause_time_left": "",
+      "pending_time": "1970-01-01 00:00:08",
+      "pin": "false",
+      "previous_test_result": "",
+      "retrieved_components": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/67a56697530e7250fd7b7bd0a0490eb5",
+        "value": "67a56697530e7250fd7b7bd0a0490eb5"
+      },
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/6ba56697530e7250fd7b7bd0a0490e2b",
+        "value": "6ba56697530e7250fd7b7bd0a0490e2b"
+      },
+      "run_time": "1970-01-01 00:00:38",
+      "session_id": "",
+      "start_time": "2025-12-31 17:30:59",
+      "start_time_millis": "19b757681c10000001",
+      "started_pending_time": "2025-12-31 17:30:51",
+      "status": "failure",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "sys_created_by": "admin",
+      "sys_created_on": "2025-12-31 17:30:51",
+      "sys_id": "2fa56697530e7250fd7b7bd0a0490eb5",
+      "sys_mod_count": "7",
+      "sys_tags": "",
+      "sys_updated_by": "admin",
+      "sys_updated_on": "2025-12-31 17:31:37",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/c5c9149f538a3250fd7b7bd0a0490ebc",
+        "value": "c5c9149f538a3250fd7b7bd0a0490ebc"
+      },
+      "test_case_json": "{\n  \"sys_atf_steps\" : [ {\n    \"sys_id\" : \"1d45e657530e7250fd7b7bd0a0490e64\",\n    \"can_mutate_page\" : \"true\",\n    \"test\" : \"c5c9149f538a3250fd7b7bd0a0490ebc\",\n    \"inputs\" : {\n      \"form_ui\" : \"standard_ui\",\n      \"view\" : \"\",\n      \"record_path\" : \"record\",\n      \"table\" : \"sc_req_item\"\n    },\n    \"input_variable_labels\" : {\n      \"form_ui\" : \"Form UI\",\n      \"view\" : \"View\",\n      \"record_path\" : \"Record path\",\n      \"table\" : \"Table\"\n    },\n    \"snapshot_hash\" : \"\",\n    \"mugshots_cache_json\" : \"\",\n    \"step_config_sys_id\" : \"05317cd10b10220050192f15d6673af8\",\n    \"table\" : \"\",\n    \"timeout\" : 0,\n    \"order\" : \"2\"\n  }, {\n    \"sys_id\" : \"5945e657530e7250fd7b7bd0a0490e75\",\n    \"can_mutate_page\" : \"false\",\n    \"test\" : \"c5c9149f538a3250fd7b7bd0a0490ebc\",\n    \"inputs\" : {\n      \"form_ui\" : \"standard_ui\",\n      \"visible\" : \"\",\n      \"read_only\" : \"u_plego_protected\",\n      \"not_visible\" : \"\",\n      \"not_mandatory\" : \"\",\n      \"not_read_only\" : \"\",\n      \"mandatory\" : \"\",\n      \"table\" : \"sc_req_item\"\n    },\n    \"input_variable_labels\" : {\n      \"form_ui\" : \"Form UI\",\n      \"visible\" : \"Visible\",\n      \"read_only\" : \"Read only\",\n      \"not_visible\" : \"Not visible\",\n      \"not_mandatory\" : \"Not mandatory\",\n      \"not_read_only\" : \"Not read only\",\n      \"mandatory\" : \"Mandatory\",\n      \"table\" : \"Table\"\n    },\n    \"snapshot_hash\" : \"\",\n    \"mugshots_cache_json\" : \"\",\n    \"step_config_sys_id\" : \"1dfece935332120028bc29cac2dc3478\",\n    \"table\" : \"\",\n    \"timeout\" : 0,\n    \"order\" : \"3\"\n  } ],\n  \"is_pausing_enabled\" : false,\n  \"is_performance_warm_up_run\" : false,\n  \"is_performance_ignore_repetitive_timeouts_active\" : true,\n  \"atf_parameter_set_order\" : -1,\n  \"should_pause_at_first_step\" : false,\n  \"tracker_sys_id\" : \"e5b5e697530e7250fd7b7bd0a0490ed0\",\n  \"sys_atf_test_result_sys_id\" : \"2fa56697530e7250fd7b7bd0a0490eb5\",\n  \"total_number_of_steps\" : 6,\n  \"rollback_context_id\" : \"67a56697530e7250fd7b7bd0a0490eb5\",\n  \"current_step_number\" : 2,\n  \"fail_on_server_error\" : false,\n  \"is_performance_run\" : false,\n  \"performance_screenshot_mode\" : \"enabledFailedSteps\",\n  \"executing_user\" : {\n    \"user_avatar\" : \"a5d3c898c3222010ae17dd981840dd8b.iix?t=small\",\n    \"user_sys_id\" : \"6816f79cc0a8016401c5a33be04be441\",\n    \"user_name\" : \"admin\",\n    \"user_display_name\" : \"System Administrator\"\n  },\n  \"test_name\" : \"ACL Sanity Checks\",\n  \"impersonating_user\" : {\n    \"user_avatar\" : null,\n    \"user_sys_id\" : \"d0991c5f538a3250fd7b7bd0a0490eb4\",\n    \"user_name\" : \"plego_requester\",\n    \"user_display_name\" : \"Plego Requester\"\n  },\n  \"order\" : 2,\n  \"page_data_capture\" : false\n}",
+      "test_description": "",
+      "test_name": "ACL Sanity Checks",
+      "test_result_json": "\"consoleLogs\" : [{\"object\":\"Test Runner Message Processor: New message received\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:30:59\",\"end_time\":\"2025-12-31 17:30:59\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Test Runner Message Processor: Incoming message ignored. We only process messages when a sys_atf_test_result record begins matching the registered filter condition.\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:30:59\",\"end_time\":\"2025-12-31 17:30:59\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Impersonation successful in the UI session. Impersonated user: plego_requester\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:30:59\",\"end_time\":\"2025-12-31 17:30:59\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Processing batch with order: 2\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:30:59\",\"end_time\":\"2025-12-31 17:30:59\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Running step 1 of 2 for ACL Sanity Checks\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:30:59\",\"end_time\":\"2025-12-31 17:30:59\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Opening a new form\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:30:59\",\"end_time\":\"2025-12-31 17:30:59\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"DEBUG No beforeExecuteStep script defined for this step\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:30:59\",\"end_time\":\"2025-12-31 17:30:59\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Opening a new form\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:30:59\",\"end_time\":\"2025-12-31 17:30:59\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\" == GlideAutomateWait: setTimeout page instrumentation\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:03\",\"end_time\":\"2025-12-31 17:31:03\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\" == GlideAutomateWait: beforeunload listener for the window instrumentation\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:03\",\"end_time\":\"2025-12-31 17:31:03\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"added render event for ui_policy_onLoad\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:03\",\"end_time\":\"2025-12-31 17:31:03\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"[00:00:00.009] form rendered\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:03\",\"end_time\":\"2025-12-31 17:31:03\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"running inline scripts, count: 0\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"runBeforeRender\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Exception while evaluating NACM configuration in text area: ReferenceError: Can't find variable: renderNACMFieldLevel\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"[00:00:00.000] onLoad calcReturn\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"[00:00:00.000] onLoad Hide related lists\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"[00:00:00.000] onLoad Modify Comments Label\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"[00:00:00.000] onLoad ShowConfirmUpdateDialog\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"[00:00:00.000] ui_policy loaded\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"runAfterAllLoaded, functions: 10\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"fireAllChangeHandlers start\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"fireAllChangeHandlers end\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"late load functions: 8\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Clearing event handlers reference cache\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"[00:00:00.007] runAfterAllLoaded finished\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"amb.MessageClient [INFO] >>> connection exists, request satisfied\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Successfully opened a new 'sc_req_item' form\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Waiting up to 60 seconds for page to be calm\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"ATF_INTENT_GENERATOR [Event received] LIBRARY-INTENT-CHANNEL#CONTEXT_RECEIVED\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"ATF_INTENT_GENERATOR [Payload] {\\\"context\\\":null,\\\"translatorId\\\":\\\"form/sc_req_item/71b52a97530e7250fd7b7bd0a0490e59\\\"}\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"ATF_INTENT_GENERATOR [Event received] LIBRARY-INTENT-CHANNEL#CONTEXT_RECEIVED\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"ATF_INTENT_GENERATOR [Payload] {\\\"context\\\":{\\\"table\\\":\\\"sc_req_item\\\",\\\"sysId\\\":\\\"71b52a97530e7250fd7b7bd0a0490e59\\\",\\\"experienceName\\\":\\\"Core UI\\\"},\\\"translatorId\\\":\\\"form/sc_req_item/71b52a97530e7250fd7b7bd0a0490e59\\\"}\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"after page loaded starting\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"[00:00:00.003] after page loaded complete, functions called: 8\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:04\",\"end_time\":\"2025-12-31 17:31:04\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"_isPeriodCalm returned true\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:26\",\"end_time\":\"2025-12-31 17:31:26\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Taking screenshot and sending it to server\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:26\",\"end_time\":\"2025-12-31 17:31:26\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/a8ca096b771220104fdc5ed99910612b.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:32\",\"end_time\":\"2025-12-31 17:31:32\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/fcba856b771220104fdc5ed9991061af.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:32\",\"end_time\":\"2025-12-31 17:31:32\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/f19a856b771220104fdc5ed9991061aa.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:32\",\"end_time\":\"2025-12-31 17:31:32\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/c79c3863771220104fdc5ed999106188.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:32\",\"end_time\":\"2025-12-31 17:31:32\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/649bcd6b771220104fdc5ed9991061e1.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:32\",\"end_time\":\"2025-12-31 17:31:32\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/2aef8f226f137010d2a2f6f2335b360f.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:32\",\"end_time\":\"2025-12-31 17:31:32\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/bf5ac16b771220104fdc5ed999106179.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:32\",\"end_time\":\"2025-12-31 17:31:32\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/51962c066f133010d2a2f6f2335b36b8.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:32\",\"end_time\":\"2025-12-31 17:31:32\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/79aa856b771220104fdc5ed9991061a5.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:32\",\"end_time\":\"2025-12-31 17:31:32\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/a8ca096b771220104fdc5ed99910612b.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:32\",\"end_time\":\"2025-12-31 17:31:32\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/fcba856b771220104fdc5ed9991061af.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:32\",\"end_time\":\"2025-12-31 17:31:32\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/f19a856b771220104fdc5ed9991061aa.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:32\",\"end_time\":\"2025-12-31 17:31:32\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/c79c3863771220104fdc5ed999106188.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:32\",\"end_time\":\"2025-12-31 17:31:32\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/649bcd6b771220104fdc5ed9991061e1.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:32\",\"end_time\":\"2025-12-31 17:31:32\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/2aef8f226f137010d2a2f6f2335b360f.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:32\",\"end_time\":\"2025-12-31 17:31:32\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/bf5ac16b771220104fdc5ed999106179.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:32\",\"end_time\":\"2025-12-31 17:31:32\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/51962c066f133010d2a2f6f2335b36b8.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:32\",\"end_time\":\"2025-12-31 17:31:32\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/79aa856b771220104fdc5ed9991061a5.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:32\",\"end_time\":\"2025-12-31 17:31:32\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Finished taking screenshot, continuing test\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:32\",\"end_time\":\"2025-12-31 17:31:32\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Reporting step result\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:32\",\"end_time\":\"2025-12-31 17:31:32\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"DEBUG Delay between steps completed. Continuing...\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:33\",\"end_time\":\"2025-12-31 17:31:33\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Running step 2 of 2 for ACL Sanity Checks\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:33\",\"end_time\":\"2025-12-31 17:31:33\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"DEBUG No beforeExecuteStep script defined for this step\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:33\",\"end_time\":\"2025-12-31 17:31:33\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"[00:00:00.095] *** WARNING *** GlideAjax.getXMLWait - synchronous function - processor: SysMessageAjax\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:33\",\"end_time\":\"2025-12-31 17:31:33\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"%c *** WARNING *** GlideAjax.getXMLWait - synchronous function - processor: SysMessageAjax\\nbackground: darkred; color: white;\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:33\",\"end_time\":\"2025-12-31 17:31:33\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Validating field states\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:33\",\"end_time\":\"2025-12-31 17:31:33\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"FAILURE: Unable to check if field 'u_plego_protected' is read only. That field is not present on the form\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:33\",\"end_time\":\"2025-12-31 17:31:33\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Taking screenshot and sending it to server\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:33\",\"end_time\":\"2025-12-31 17:31:33\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/a8ca096b771220104fdc5ed99910612b.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:35\",\"end_time\":\"2025-12-31 17:31:35\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/fcba856b771220104fdc5ed9991061af.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:35\",\"end_time\":\"2025-12-31 17:31:35\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/f19a856b771220104fdc5ed9991061aa.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:35\",\"end_time\":\"2025-12-31 17:31:35\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/c79c3863771220104fdc5ed999106188.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:35\",\"end_time\":\"2025-12-31 17:31:35\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/649bcd6b771220104fdc5ed9991061e1.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:35\",\"end_time\":\"2025-12-31 17:31:35\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/2aef8f226f137010d2a2f6f2335b360f.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:35\",\"end_time\":\"2025-12-31 17:31:35\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/bf5ac16b771220104fdc5ed999106179.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:35\",\"end_time\":\"2025-12-31 17:31:35\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/51962c066f133010d2a2f6f2335b36b8.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:35\",\"end_time\":\"2025-12-31 17:31:35\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/79aa856b771220104fdc5ed9991061a5.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:35\",\"end_time\":\"2025-12-31 17:31:35\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/a8ca096b771220104fdc5ed99910612b.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:35\",\"end_time\":\"2025-12-31 17:31:35\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/fcba856b771220104fdc5ed9991061af.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:35\",\"end_time\":\"2025-12-31 17:31:35\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/f19a856b771220104fdc5ed9991061aa.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:35\",\"end_time\":\"2025-12-31 17:31:35\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/c79c3863771220104fdc5ed999106188.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:35\",\"end_time\":\"2025-12-31 17:31:35\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/649bcd6b771220104fdc5ed9991061e1.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:35\",\"end_time\":\"2025-12-31 17:31:35\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/2aef8f226f137010d2a2f6f2335b360f.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:35\",\"end_time\":\"2025-12-31 17:31:35\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/bf5ac16b771220104fdc5ed999106179.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:35\",\"end_time\":\"2025-12-31 17:31:35\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/51962c066f133010d2a2f6f2335b36b8.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:35\",\"end_time\":\"2025-12-31 17:31:35\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Unexpected font url property format: url(\\\"/uxta/79aa856b771220104fdc5ed9991061a5.assetx\\\")\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:35\",\"end_time\":\"2025-12-31 17:31:35\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Finished taking screenshot, continuing test\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:36\",\"end_time\":\"2025-12-31 17:31:36\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Reporting step result\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:36\",\"end_time\":\"2025-12-31 17:31:36\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":\"Successfully ended impersonation in the UI session\",\"type\":\"client_log\",\"start_time\":\"2025-12-31 17:31:36\",\"end_time\":\"2025-12-31 17:31:36\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null}], \n \"frontendTest\" : {\"stepResults\":[{\"success\":true,\"message\":\"Successfully opened a new 'sc_req_item' form\",\"start_time\":\"2025-12-31 17:30:59\",\"end_time\":\"2025-12-31 17:31:26\",\"start_time_millis\":\"2025-12-31 17:30:59.760\",\"end_time_millis\":\"2025-12-31 17:31:26.992\",\"start_in_ms\":1767202259760,\"run_time_millis\":27232,\"outputs\":{},\"status\":\"success\",\"sys_atf_step_sys_id\":\"1d45e657530e7250fd7b7bd0a0490e64\"},{\"success\":false,\"message\":\"FAILURE: Unable to check if field 'u_plego_protected' is read only. That field is not present on the form\",\"start_time\":\"2025-12-31 17:31:33\",\"end_time\":\"2025-12-31 17:31:33\",\"start_time_millis\":\"2025-12-31 17:31:33.349\",\"end_time_millis\":\"2025-12-31 17:31:33.463\",\"start_in_ms\":1767202293349,\"run_time_millis\":114,\"outputs\":{},\"status\":\"failure\",\"sys_atf_step_sys_id\":\"5945e657530e7250fd7b7bd0a0490e75\"}],\"stepEvents\":[{\"object\":null,\"type\":\"step_completion\",\"start_time\":\"2025-12-31 17:30:59\",\"end_time\":\"2025-12-31 17:31:26\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null},{\"object\":null,\"type\":\"step_completion\",\"start_time\":\"2025-12-31 17:31:33\",\"end_time\":\"2025-12-31 17:31:33\",\"whitelisted_client_error\":null,\"step_id\":null,\"browser\":null,\"sys_atf_step_sys_id\":null}],\"hasFailure\":true,\"isCanceled\":false,\"hasWarning\":false,\"setupResults\":[],\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Safari/605.1.15\",\"sys_atf_test_result_sys_id\":\"2fa56697530e7250fd7b7bd0a0490eb5\",\"is_performance_warm_up_run\":false,\"is_performance_ignore_repetitive_timeouts_active\":true}",
+      "user_agents": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.1 Safari/605.1.15"
+    },
+    {
+      "abort_on_failure": "false",
+      "continue_test": "false",
+      "end_time": "2025-12-31 17:31:38",
+      "end_time_millis": "19b75771c510000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/a7a56697530e7250fd7b7bd0a0490eb9",
+        "value": "a7a56697530e7250fd7b7bd0a0490eb9"
+      },
+      "first_failing_client_error": "",
+      "first_failing_step": "",
+      "first_failing_step_screenshot": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "message_reference": "d50af3f6821e6e401fa81671e3aa5c4a",
+      "output": "Test passed",
+      "parameter_set_run": "",
+      "parameter_test_result": "",
+      "parameters": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/6ba56697530e7250fd7b7bd0a0490ead",
+        "value": "6ba56697530e7250fd7b7bd0a0490ead"
+      },
+      "pause_time_left": "",
+      "pending_time": "1970-01-01 00:00:47",
+      "pin": "false",
+      "previous_test_result": "",
+      "retrieved_components": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/7ba56697530e7250fd7b7bd0a0490eba",
+        "value": "7ba56697530e7250fd7b7bd0a0490eba"
+      },
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/6ba56697530e7250fd7b7bd0a0490e2b",
+        "value": "6ba56697530e7250fd7b7bd0a0490e2b"
+      },
+      "run_time": "1970-01-01 00:00:00",
+      "session_id": "",
+      "start_time": "2025-12-31 17:31:38",
+      "start_time_millis": "19b75771b890000001",
+      "started_pending_time": "2025-12-31 17:30:51",
+      "status": "success",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "sys_created_by": "admin",
+      "sys_created_on": "2025-12-31 17:30:51",
+      "sys_id": "33a56697530e7250fd7b7bd0a0490ebb",
+      "sys_mod_count": "2",
+      "sys_tags": "",
+      "sys_updated_by": "admin",
+      "sys_updated_on": "2025-12-31 17:31:38",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/ee629647538afe10fd7b7bd0a0490eed",
+        "value": "ee629647538afe10fd7b7bd0a0490eed"
+      },
+      "test_case_json": "",
+      "test_description": "",
+      "test_name": "Access Request Flow Trigger",
+      "test_result_json": "",
+      "user_agents": ""
+    },
+    {
+      "abort_on_failure": "false",
+      "continue_test": "false",
+      "end_time": "2025-12-31 17:30:58",
+      "end_time_millis": "19b75767fc10000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/2ba56697530e7250fd7b7bd0a0490eb1",
+        "value": "2ba56697530e7250fd7b7bd0a0490eb1"
+      },
+      "first_failing_client_error": "",
+      "first_failing_step": "",
+      "first_failing_step_screenshot": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "message_reference": "d50af3f6821e6e401fa81671e3aa5c4a",
+      "output": "Test passed",
+      "parameter_set_run": "",
+      "parameter_test_result": "",
+      "parameters": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/6ba56697530e7250fd7b7bd0a0490ead",
+        "value": "6ba56697530e7250fd7b7bd0a0490ead"
+      },
+      "pause_time_left": "",
+      "pending_time": "1970-01-01 00:00:05",
+      "pin": "false",
+      "previous_test_result": "",
+      "retrieved_components": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/eba56697530e7250fd7b7bd0a0490eb2",
+        "value": "eba56697530e7250fd7b7bd0a0490eb2"
+      },
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/6ba56697530e7250fd7b7bd0a0490e2b",
+        "value": "6ba56697530e7250fd7b7bd0a0490e2b"
+      },
+      "run_time": "1970-01-01 00:00:02",
+      "session_id": "",
+      "start_time": "2025-12-31 17:30:56",
+      "start_time_millis": "19b7576776a0000001",
+      "started_pending_time": "2025-12-31 17:30:51",
+      "status": "success",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "sys_created_by": "admin",
+      "sys_created_on": "2025-12-31 17:30:51",
+      "sys_id": "a3a56697530e7250fd7b7bd0a0490eb3",
+      "sys_mod_count": "2",
+      "sys_tags": "",
+      "sys_updated_by": "admin",
+      "sys_updated_on": "2025-12-31 17:30:58",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/1e801603538afe10fd7b7bd0a0490e33",
+        "value": "1e801603538afe10fd7b7bd0a0490e33"
+      },
+      "test_case_json": "",
+      "test_description": "",
+      "test_name": "Catalog Access Request Submission",
+      "test_result_json": "",
+      "user_agents": ""
+    },
+    {
+      "abort_on_failure": "false",
+      "continue_test": "false",
+      "end_time": "2025-12-31 17:31:38",
+      "end_time_millis": "19b75771a630000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/2fa56697530e7250fd7b7bd0a0490eb6",
+        "value": "2fa56697530e7250fd7b7bd0a0490eb6"
+      },
+      "first_failing_client_error": "",
+      "first_failing_step": "",
+      "first_failing_step_screenshot": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "message_reference": "d50af3f6821e6e401fa81671e3aa5c4a",
+      "output": "Test passed",
+      "parameter_set_run": "",
+      "parameter_test_result": "",
+      "parameters": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/6ba56697530e7250fd7b7bd0a0490ead",
+        "value": "6ba56697530e7250fd7b7bd0a0490ead"
+      },
+      "pause_time_left": "",
+      "pending_time": "1970-01-01 00:00:47",
+      "pin": "false",
+      "previous_test_result": "",
+      "retrieved_components": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/efa56697530e7250fd7b7bd0a0490eb7",
+        "value": "efa56697530e7250fd7b7bd0a0490eb7"
+      },
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/6ba56697530e7250fd7b7bd0a0490e2b",
+        "value": "6ba56697530e7250fd7b7bd0a0490e2b"
+      },
+      "run_time": "1970-01-01 00:00:00",
+      "session_id": "",
+      "start_time": "2025-12-31 17:31:38",
+      "start_time_millis": "19b757719390000001",
+      "started_pending_time": "2025-12-31 17:30:51",
+      "status": "success",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "sys_created_by": "admin",
+      "sys_created_on": "2025-12-31 17:30:51",
+      "sys_id": "a7a56697530e7250fd7b7bd0a0490eb8",
+      "sys_mod_count": "2",
+      "sys_tags": "",
+      "sys_updated_by": "admin",
+      "sys_updated_on": "2025-12-31 17:31:38",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/4e629647538afe10fd7b7bd0a0490e50",
+        "value": "4e629647538afe10fd7b7bd0a0490e50"
+      },
+      "test_case_json": "",
+      "test_description": "",
+      "test_name": "Record Producer Creates Incident",
+      "test_result_json": "",
+      "user_agents": ""
+    },
+    {
+      "abort_on_failure": "false",
+      "continue_test": "false",
+      "end_time": "2025-12-31 17:31:40",
+      "end_time_millis": "19b757723d40000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/33a56697530e7250fd7b7bd0a0490ebc",
+        "value": "33a56697530e7250fd7b7bd0a0490ebc"
+      },
+      "first_failing_client_error": "",
+      "first_failing_step": "",
+      "first_failing_step_screenshot": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "message_reference": "d50af3f6821e6e401fa81671e3aa5c4a",
+      "output": "Test passed",
+      "parameter_set_run": "",
+      "parameter_test_result": "",
+      "parameters": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/6ba56697530e7250fd7b7bd0a0490ead",
+        "value": "6ba56697530e7250fd7b7bd0a0490ead"
+      },
+      "pause_time_left": "",
+      "pending_time": "1970-01-01 00:00:48",
+      "pin": "false",
+      "previous_test_result": "",
+      "retrieved_components": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/f3a56697530e7250fd7b7bd0a0490ebd",
+        "value": "f3a56697530e7250fd7b7bd0a0490ebd"
+      },
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/6ba56697530e7250fd7b7bd0a0490e2b",
+        "value": "6ba56697530e7250fd7b7bd0a0490e2b"
+      },
+      "run_time": "1970-01-01 00:00:01",
+      "session_id": "",
+      "start_time": "2025-12-31 17:31:39",
+      "start_time_millis": "19b75771d4a0000001",
+      "started_pending_time": "2025-12-31 17:30:51",
+      "status": "success",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "sys_created_by": "admin",
+      "sys_created_on": "2025-12-31 17:30:51",
+      "sys_id": "bba56697530e7250fd7b7bd0a0490ebd",
+      "sys_mod_count": "2",
+      "sys_tags": "",
+      "sys_updated_by": "admin",
+      "sys_updated_on": "2025-12-31 17:31:40",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/d0c9d09f538a3250fd7b7bd0a0490e9b",
+        "value": "d0c9d09f538a3250fd7b7bd0a0490e9b"
+      },
+      "test_case_json": "",
+      "test_description": "",
+      "test_name": "Access Request Approval Path",
+      "test_result_json": "",
+      "user_agents": ""
+    }
+  ]
+}

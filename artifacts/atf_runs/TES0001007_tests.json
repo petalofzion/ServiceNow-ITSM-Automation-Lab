@@ -1,0 +1,29 @@
+[
+  {
+    "sys_id": "5f1294db534a3250fd7b7bd0a0490eef",
+    "test": {
+      "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/1e801603538afe10fd7b7bd0a0490e33",
+      "value": "1e801603538afe10fd7b7bd0a0490e33"
+    },
+    "sys_created_on": "2025-12-31 06:46:07",
+    "status": "error"
+  },
+  {
+    "sys_id": "931294db534a3250fd7b7bd0a0490ef3",
+    "test": {
+      "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/4e629647538afe10fd7b7bd0a0490e50",
+      "value": "4e629647538afe10fd7b7bd0a0490e50"
+    },
+    "sys_created_on": "2025-12-31 06:46:07",
+    "status": "success"
+  },
+  {
+    "sys_id": "db1294db534a3250fd7b7bd0a0490ef5",
+    "test": {
+      "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/ee629647538afe10fd7b7bd0a0490eed",
+      "value": "ee629647538afe10fd7b7bd0a0490eed"
+    },
+    "sys_created_on": "2025-12-31 06:46:07",
+    "status": "error"
+  }
+]

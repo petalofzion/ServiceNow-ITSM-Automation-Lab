@@ -33,8 +33,20 @@ Use this sheet to log measurable proof of progress and outcomes.
 ## ATF test runs
 | Suite | Run ID | Result | Evidence | Notes |
 |---|---|---|---|---|
-| Smoke | TBD | TBD | | |
-| Integration | TBD | TBD | | |
+| Smoke | TES0001010 | Passed | `artifacts/atf_runs/TES0001010.json` | Tests in `artifacts/atf_runs/TES0001010_tests.json`. |
+| Smoke | TES0001011 | Failed | `artifacts/atf_runs/TES0001011.json` | Failures in `artifacts/atf_runs/TES0001011_tests.json`. |
+| Integration | TES0001012 | Passed | `artifacts/atf_runs/TES0001012.json` | Tests in `artifacts/atf_runs/TES0001012_tests.json`. |
+| Smoke | TES0001013 | Failed | `artifacts/atf_runs/TES0001013.json` | Failure in `artifacts/atf_runs/TES0001013_tests.json` (ACL test). |
+| Smoke | TES0001014 | Failed | `artifacts/atf_runs/TES0001014.json` | Failure in `artifacts/atf_runs/TES0001014_tests.json` (ACL test). |
+| Smoke | TES0001015 | Failed | `artifacts/atf_runs/TES0001015.json` | Failures in `artifacts/atf_runs/TES0001015_tests.json` (ACL + logging). |
+| Smoke | TES0001016 | Failed | `artifacts/atf_runs/TES0001016.json` | Failures in `artifacts/atf_runs/TES0001016_tests.json` (ACL + logging). |
+| Smoke | TES0001017 | Failed | `artifacts/atf_runs/TES0001017.json` | Failure in `artifacts/atf_runs/TES0001017_tests.json` (ACL test). |
+| Smoke | TES0001018 | Failed | `artifacts/atf_runs/TES0001018.json` | Failure in `artifacts/atf_runs/TES0001018_tests.json` (ACL test). |
+| Smoke | TES0001019 | Failed | `artifacts/atf_runs/TES0001019.json` | Failure in `artifacts/atf_runs/TES0001019_tests.json` (ACL test). |
+| Smoke | TES0001020 | Failed | `artifacts/atf_runs/TES0001020.json` | Failure in `artifacts/atf_runs/TES0001020_tests.json` (ACL test). |
+| Smoke | TES0001021 | Failed | `artifacts/atf_runs/TES0001021.json` | Failure in `artifacts/atf_runs/TES0001021_tests.json` (ACL test). |
+| Smoke | TES0001022 | Failed | `artifacts/atf_runs/TES0001022.json` | Failure in `artifacts/atf_runs/TES0001022_tests.json` (ACL test). |
+| Smoke | TES0001023 | Failed | `artifacts/atf_runs/TES0001023.json` | Failure in `artifacts/atf_runs/TES0001023_tests.json` (ACL field missing on form). |
 | Regression | TBD | TBD | | |
 
 ## Resume-ready highlights

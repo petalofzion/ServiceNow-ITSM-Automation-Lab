@@ -1,0 +1,24 @@
+{
+  "Smoke": {
+    "sys_id": "26ad0e8b534afe10fd7b7bd0a0490e79",
+    "tests": [
+      "Catalog Access Request Submission",
+      "Record Producer Creates Incident",
+      "Access Request Flow Trigger",
+      "Access Request Approval Path",
+      "Smoke Logging and Script Includes",
+      "ACL Sanity Checks"
+    ],
+    "missing_tests": []
+  },
+  "Integration": {
+    "sys_id": "76bd8e8b534afe10fd7b7bd0a0490ed0",
+    "tests": [
+      "Outbound REST Success",
+      "Outbound REST Failure Handling",
+      "Inbound REST Creates Request",
+      "SOAP Call Logged"
+    ],
+    "missing_tests": []
+  }
+}

@@ -14,9 +14,33 @@ tests:
           type: atf
           covers:
             - flow.Access Request Approval
+        - name: Access Request Approval Path
+          type: atf
+          covers:
+            - flow.Access Request Approval
+        - name: Smoke Logging and Script Includes
+          type: atf
+          covers:
+            - logging.integration
+        - name: ACL Sanity Checks
+          type: atf
+          covers:
+            - security.acl
     - name: Integration
       tests:
-        - name: Outbound REST Logged
+        - name: Outbound REST Success
           type: atf
           covers:
             - integration.GitHub Issue on High Priority
+        - name: Outbound REST Failure Handling
+          type: atf
+          covers:
+            - integration.GitHub Issue on High Priority
+        - name: Inbound REST Creates Request
+          type: atf
+          covers:
+            - integration.Inbound Request
+        - name: SOAP Call Logged
+          type: atf
+          covers:
+            - integration.SOAP Mock

@@ -1,0 +1,373 @@
+{
+  "result": [
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/3955e89b530e3250fd7b7bd0a0490e38",
+        "value": "3955e89b530e3250fd7b7bd0a0490e38"
+      },
+      "test_description": "",
+      "end_time_millis": "19b7375246f0000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/b5552c9b530e3250fd7b7bd0a0490e44",
+        "value": "b5552c9b530e3250fd7b7bd0a0490e44"
+      },
+      "started_pending_time": "2025-12-31 08:10:07",
+      "sys_updated_on": "2025-12-31 08:10:15",
+      "pending_time": "1970-01-01 00:00:08",
+      "first_failing_step": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_result_step/3755ac9b530e3250fd7b7bd0a0490e98",
+        "value": "3755ac9b530e3250fd7b7bd0a0490e98"
+      },
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "\n\n\nFull logging from step execution:\n00:10:15.234 Loading script: jasmine_lib/jasmine31.js\n00:10:15.237 Successfully loaded jasmine_lib/jasmine31.js\n00:10:15.381  \n----- Tests Complete -----\nSpec :: ACL Sanity Checks enforces write ACL on sc_req_item.short_description :: failed\r\n\tExpected false to be true.\r\n\tat:1\n\tat:1\r\nTest results :: (6/7) :: failed\r\n\n",
+      "sys_id": "31552c9b530e3250fd7b7bd0a0490e46",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 08:10:07",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:00",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/c5c9149f538a3250fd7b7bd0a0490ebc",
+        "value": "c5c9149f538a3250fd7b7bd0a0490ebc"
+      },
+      "start_time_millis": "19b7375230a0000001",
+      "end_time": "2025-12-31 08:10:15",
+      "sys_mod_count": "3",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 08:10:15",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/79552c9b530e3250fd7b7bd0a0490e45",
+        "value": "79552c9b530e3250fd7b7bd0a0490e45"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/3955e89b530e3250fd7b7bd0a0490ef3",
+        "value": "3955e89b530e3250fd7b7bd0a0490ef3"
+      },
+      "parameters": "",
+      "test_name": "ACL Sanity Checks",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "failure"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/3955e89b530e3250fd7b7bd0a0490e38",
+        "value": "3955e89b530e3250fd7b7bd0a0490e38"
+      },
+      "test_description": "",
+      "end_time_millis": "19b7375297b0000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/fd552c9b530e3250fd7b7bd0a0490e46",
+        "value": "fd552c9b530e3250fd7b7bd0a0490e46"
+      },
+      "started_pending_time": "2025-12-31 08:10:07",
+      "sys_updated_on": "2025-12-31 08:10:16",
+      "pending_time": "1970-01-01 00:00:09",
+      "first_failing_step": "",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Test passed",
+      "sys_id": "79552c9b530e3250fd7b7bd0a0490e48",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 08:10:07",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:00",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/4e629647538afe10fd7b7bd0a0490e50",
+        "value": "4e629647538afe10fd7b7bd0a0490e50"
+      },
+      "start_time_millis": "19b7375283f0000001",
+      "end_time": "2025-12-31 08:10:16",
+      "sys_mod_count": "2",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 08:10:16",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/b1552c9b530e3250fd7b7bd0a0490e48",
+        "value": "b1552c9b530e3250fd7b7bd0a0490e48"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/3955e89b530e3250fd7b7bd0a0490ef3",
+        "value": "3955e89b530e3250fd7b7bd0a0490ef3"
+      },
+      "parameters": "",
+      "test_name": "Record Producer Creates Incident",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "success"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/3955e89b530e3250fd7b7bd0a0490e38",
+        "value": "3955e89b530e3250fd7b7bd0a0490e38"
+      },
+      "test_description": "",
+      "end_time_millis": "19b73752bb40000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/39552c9b530e3250fd7b7bd0a0490e49",
+        "value": "39552c9b530e3250fd7b7bd0a0490e49"
+      },
+      "started_pending_time": "2025-12-31 08:10:07",
+      "sys_updated_on": "2025-12-31 08:10:17",
+      "pending_time": "1970-01-01 00:00:10",
+      "first_failing_step": "",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Test passed",
+      "sys_id": "b1552c9b530e3250fd7b7bd0a0490e4b",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 08:10:07",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:00",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/ee629647538afe10fd7b7bd0a0490eed",
+        "value": "ee629647538afe10fd7b7bd0a0490eed"
+      },
+      "start_time_millis": "19b73752ac20000001",
+      "end_time": "2025-12-31 08:10:17",
+      "sys_mod_count": "2",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 08:10:17",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/f9552c9b530e3250fd7b7bd0a0490e4a",
+        "value": "f9552c9b530e3250fd7b7bd0a0490e4a"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/3955e89b530e3250fd7b7bd0a0490ef3",
+        "value": "3955e89b530e3250fd7b7bd0a0490ef3"
+      },
+      "parameters": "",
+      "test_name": "Access Request Flow Trigger",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "success"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/3955e89b530e3250fd7b7bd0a0490e38",
+        "value": "3955e89b530e3250fd7b7bd0a0490e38"
+      },
+      "test_description": "",
+      "end_time_millis": "19b7375164e0000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/7155e89b530e3250fd7b7bd0a0490e3a",
+        "value": "7155e89b530e3250fd7b7bd0a0490e3a"
+      },
+      "started_pending_time": "2025-12-31 08:10:07",
+      "sys_updated_on": "2025-12-31 08:10:11",
+      "pending_time": "1970-01-01 00:00:01",
+      "first_failing_step": "",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Test passed",
+      "sys_id": "bd552c9b530e3250fd7b7bd0a0490e40",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 08:10:07",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:03",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/3cc9149f538a3250fd7b7bd0a0490e4f",
+        "value": "3cc9149f538a3250fd7b7bd0a0490e4f"
+      },
+      "start_time_millis": "19b737508a30000001",
+      "end_time": "2025-12-31 08:10:11",
+      "sys_mod_count": "2",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 08:10:08",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/f5552c9b530e3250fd7b7bd0a0490e40",
+        "value": "f5552c9b530e3250fd7b7bd0a0490e40"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/3955e89b530e3250fd7b7bd0a0490ef3",
+        "value": "3955e89b530e3250fd7b7bd0a0490ef3"
+      },
+      "parameters": "",
+      "test_name": "Smoke Logging and Script Includes",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "success"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/3955e89b530e3250fd7b7bd0a0490e38",
+        "value": "3955e89b530e3250fd7b7bd0a0490e38"
+      },
+      "test_description": "",
+      "end_time_millis": "19b73751ff10000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/7d552c9b530e3250fd7b7bd0a0490e41",
+        "value": "7d552c9b530e3250fd7b7bd0a0490e41"
+      },
+      "started_pending_time": "2025-12-31 08:10:07",
+      "sys_updated_on": "2025-12-31 08:10:14",
+      "pending_time": "1970-01-01 00:00:05",
+      "first_failing_step": "",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Test passed",
+      "sys_id": "f5552c9b530e3250fd7b7bd0a0490e43",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 08:10:07",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:02",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/1e801603538afe10fd7b7bd0a0490e33",
+        "value": "1e801603538afe10fd7b7bd0a0490e33"
+      },
+      "start_time_millis": "19b737518500000001",
+      "end_time": "2025-12-31 08:10:14",
+      "sys_mod_count": "2",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 08:10:12",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/31552c9b530e3250fd7b7bd0a0490e43",
+        "value": "31552c9b530e3250fd7b7bd0a0490e43"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/3955e89b530e3250fd7b7bd0a0490ef3",
+        "value": "3955e89b530e3250fd7b7bd0a0490ef3"
+      },
+      "parameters": "",
+      "test_name": "Catalog Access Request Submission",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "success"
+    },
+    {
+      "parameter_test_result": "",
+      "parent": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/3955e89b530e3250fd7b7bd0a0490e38",
+        "value": "3955e89b530e3250fd7b7bd0a0490e38"
+      },
+      "test_description": "",
+      "end_time_millis": "19b737534020000001",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/71552c9b530e3250fd7b7bd0a0490e4c",
+        "value": "71552c9b530e3250fd7b7bd0a0490e4c"
+      },
+      "started_pending_time": "2025-12-31 08:10:07",
+      "sys_updated_on": "2025-12-31 08:10:19",
+      "pending_time": "1970-01-01 00:00:10",
+      "first_failing_step": "",
+      "step_over": "false",
+      "sys_class_name": "sys_atf_test_result",
+      "output": "Test passed",
+      "sys_id": "f9552c9b530e3250fd7b7bd0a0490e4d",
+      "sys_updated_by": "admin",
+      "test_result_json": "",
+      "pin": "false",
+      "sys_created_on": "2025-12-31 08:10:07",
+      "user_agents": "",
+      "message_reference": "",
+      "sys_created_by": "admin",
+      "previous_test_result": "",
+      "first_failing_client_error": "",
+      "run_time": "1970-01-01 00:00:02",
+      "test": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test/d0c9d09f538a3250fd7b7bd0a0490e9b",
+        "value": "d0c9d09f538a3250fd7b7bd0a0490e9b"
+      },
+      "start_time_millis": "19b73752d300000001",
+      "end_time": "2025-12-31 08:10:19",
+      "sys_mod_count": "2",
+      "session_id": "",
+      "first_failing_step_screenshot": "",
+      "sys_tags": "",
+      "pause_time_left": "",
+      "start_time": "2025-12-31 08:10:17",
+      "test_case_json": "",
+      "is_test_generation": "false",
+      "is_test_generation_waiting_for_cloud_runner": "false",
+      "rollback_context": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_rollback_context/35552c9b530e3250fd7b7bd0a0490e4d",
+        "value": "35552c9b530e3250fd7b7bd0a0490e4d"
+      },
+      "abort_on_failure": "false",
+      "parameter_set_run": "",
+      "root_tracker_id": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/3955e89b530e3250fd7b7bd0a0490ef3",
+        "value": "3955e89b530e3250fd7b7bd0a0490ef3"
+      },
+      "parameters": "",
+      "test_name": "Access Request Approval Path",
+      "continue_test": "false",
+      "retrieved_components": "false",
+      "status": "success"
+    }
+  ]
+}

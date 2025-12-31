@@ -2,6 +2,8 @@
 
 This project uses ServiceNow Automated Test Framework (ATF) as the primary test harness. These suites are designed to keep the implementation stable while iterating.
 
+Test suite intent, schedules, and responsibility mapping live in `docs/testing/test-taxonomy.md`.
+
 ## ATF Suites to create in the PDI
 ### 1) Smoke Suite (runs fast on every change)
 - **Create Catalog Request (Access Request)**
@@ -40,6 +42,13 @@ Before merging any change, provide evidence of:
 - Integration calls passing or mocked (no flaky network dependence).
 - ACL test still passes (unauthorized user blocked).
 - Dashboard sanity test still passes.
+
+## Repo-side test gates (non-ATF)
+- `make validate`: desired state schema validation.
+- Idempotency: apply desired state twice; second run must be no-op.
+- Drift detection: compare instance artifacts vs `ops/desired-state/`.
+- Evidence pack validation: ATF run JSON + artifacts exist after `make test`.
+- Security scans: gitleaks + dependency audit + static analysis.
 
 ## CI pipeline option (recommended)
 Use GitHub Actions to trigger ServiceNow CI/CD “Run ATF Test Suite”.
