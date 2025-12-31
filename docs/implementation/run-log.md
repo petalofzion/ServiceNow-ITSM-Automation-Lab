@@ -311,3 +311,27 @@ successes, and evidence references. Do not include secrets or credentials.
 - Findings: ATF UI steps can resolve different form views; updated seeding to add `u_plego_protected` to every `sc_req_item` UI section.
 - Successes: Field should now be present regardless of view selection.
 - Evidence: `scripts/servicenow/atf_seed_steps.js`.
+
+- Action: Capture ATF run TES0001024
+- Status: failed
+- Findings: ACL Sanity Checks failed because `u_plego_protected` remained read-only for the IT agent.
+- Successes: Run artifacts captured for analysis.
+- Evidence: `artifacts/atf_runs/TES0001024.json`, `artifacts/atf_runs/TES0001024_tests.json`.
+
+- Action: Ensure protected field is writable in dictionary
+- Status: success
+- Findings: Dictionary settings can force read-only; explicitly set `read_only=false` and clear `write_roles`.
+- Successes: Field should now be editable when ACLs allow it.
+- Evidence: `scripts/servicenow/atf_seed_steps.js`.
+
+- Action: Capture ATF run TES0001025
+- Status: failed
+- Findings: ACL Sanity Checks still reports the protected field as read-only for the IT agent.
+- Successes: Run artifacts captured for analysis.
+- Evidence: `artifacts/atf_runs/TES0001025.json`, `artifacts/atf_runs/TES0001025_tests.json`.
+
+- Action: Add create ACL for sc_req_item
+- Status: success
+- Findings: New-form UI requires create permission; added record create ACL for `sc_req_item` tied to `x_plego_it_agent`.
+- Successes: IT agent should now be allowed to open an editable new form.
+- Evidence: `scripts/servicenow/atf_seed_steps.js`.

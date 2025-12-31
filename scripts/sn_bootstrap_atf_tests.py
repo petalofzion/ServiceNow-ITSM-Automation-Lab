@@ -191,18 +191,42 @@ def _ensure_dictionary_field(instance: str, headers: dict[str, str]) -> dict:
 
 def _ensure_protected_field_acl(instance: str, headers: dict[str, str]) -> dict:
     try:
+        description = "Plego protected field ACL (auto-managed)"
         return _ensure_record(
             instance,
             headers,
             "sys_security_acl",
-            "name=sc_req_item.u_plego_protected^operation=write^type=field",
+            f"name=sc_req_item.u_plego_protected^operation=write^type=field^description={description}",
             {
                 "name": "sc_req_item.u_plego_protected",
                 "operation": "write",
                 "type": "field",
                 "active": "true",
                 "admin_overrides": "true",
-                "description": "Plego protected field ACL (auto-managed)",
+                "description": description,
+            },
+        )
+    except urllib.error.HTTPError as exc:
+        if exc.code == 403:
+            return {}
+        raise
+
+
+def _ensure_protected_field_create_acl(instance: str, headers: dict[str, str]) -> dict:
+    try:
+        description = "Plego protected field create ACL (auto-managed)"
+        return _ensure_record(
+            instance,
+            headers,
+            "sys_security_acl",
+            f"name=sc_req_item.u_plego_protected^operation=create^type=field^description={description}",
+            {
+                "name": "sc_req_item.u_plego_protected",
+                "operation": "create",
+                "type": "field",
+                "active": "true",
+                "admin_overrides": "true",
+                "description": description,
             },
         )
     except urllib.error.HTTPError as exc:
@@ -241,18 +265,19 @@ def _ensure_user_role(
 
 def _ensure_acl(instance: str, headers: dict[str, str]) -> dict:
     try:
+        description = "Plego ACL for ATF sanity checks (auto-managed)"
         return _ensure_record(
             instance,
             headers,
             "sys_security_acl",
-            "name=sc_req_item.short_description^operation=write^type=field",
+            f"name=sc_req_item.short_description^operation=write^type=field^description={description}",
             {
                 "name": "sc_req_item.short_description",
                 "operation": "write",
                 "type": "field",
                 "active": "true",
                 "admin_overrides": "true",
-                "description": "Plego ACL for ATF sanity checks (auto-managed)",
+                "description": description,
             },
         )
     except urllib.error.HTTPError as exc:
@@ -263,18 +288,20 @@ def _ensure_acl(instance: str, headers: dict[str, str]) -> dict:
 
 def _ensure_table_write_acl(instance: str, headers: dict[str, str]) -> dict:
     try:
+        description = "Plego record write ACL for ATF sanity checks (auto-managed)"
         record = _ensure_record(
             instance,
             headers,
             "sys_security_acl",
-            "name=sc_req_item^operation=write^type=record",
+            f"name=sc_req_item^operation=write^type=record^description={description}",
             {
                 "name": "sc_req_item",
                 "operation": "write",
                 "type": "record",
                 "active": "true",
                 "admin_overrides": "true",
-                "description": "Plego record write ACL for ATF sanity checks (auto-managed)",
+                "description": description,
+                "condition": "",
             },
         )
         if record.get("sys_id"):
@@ -283,12 +310,34 @@ def _ensure_table_write_acl(instance: str, headers: dict[str, str]) -> dict:
                 "PATCH",
                 headers,
                 body={
-                    "condition": (
-                        "current.requested_for == gs.getUserID() "
-                        "|| gs.hasRole('x_plego_it_agent')"
-                    )
+                    "condition": ""
                 },
             )
+        return record
+    except urllib.error.HTTPError as exc:
+        if exc.code == 403:
+            return {}
+        raise
+
+
+def _ensure_table_create_acl(instance: str, headers: dict[str, str]) -> dict:
+    try:
+        description = "Plego record create ACL for ATF sanity checks (auto-managed)"
+        record = _ensure_record(
+            instance,
+            headers,
+            "sys_security_acl",
+            f"name=sc_req_item^operation=create^type=record^description={description}",
+            {
+                "name": "sc_req_item",
+                "operation": "create",
+                "type": "record",
+                "active": "true",
+                "admin_overrides": "true",
+                "description": description,
+                "condition": "",
+            },
+        )
         return record
     except urllib.error.HTTPError as exc:
         if exc.code == 403:
@@ -933,15 +982,21 @@ def main() -> None:
     if itil_role_id and agent.get("sys_id"):
         _ensure_user_role(instance, headers, agent["sys_id"], itil_role_id)
     protected_acl = _ensure_protected_field_acl(instance, headers)
+    protected_create_acl = _ensure_protected_field_create_acl(instance, headers)
     acl = _ensure_acl(instance, headers)
     table_acl = _ensure_table_write_acl(instance, headers)
+    create_acl = _ensure_table_create_acl(instance, headers)
     if protected_acl.get("sys_id") and role_id:
         _ensure_acl_role(instance, headers, protected_acl["sys_id"], role_id)
+    if protected_create_acl.get("sys_id") and role_id:
+        _ensure_acl_role(instance, headers, protected_create_acl["sys_id"], role_id)
     if acl.get("sys_id") and role_id:
         _ensure_acl_role(instance, headers, acl["sys_id"], role_id)
     if table_acl.get("sys_id") and role_id:
         _ensure_acl_role(instance, headers, table_acl["sys_id"], role_id)
-    if not acl.get("sys_id") or not table_acl.get("sys_id"):
+    if create_acl.get("sys_id") and role_id:
+        _ensure_acl_role(instance, headers, create_acl["sys_id"], role_id)
+    if not acl.get("sys_id") or not table_acl.get("sys_id") or not create_acl.get("sys_id") or not protected_create_acl.get("sys_id"):
         print(
             "ACL insert blocked by instance permissions. "
             "Run scripts/servicenow/atf_seed_steps.js (ACL block section) or create "

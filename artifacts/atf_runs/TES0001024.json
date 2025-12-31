@@ -1,0 +1,47 @@
+{
+  "result": [
+    {
+      "agent_id": "",
+      "base_suite_result": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite_result/cae72adb530e7250fd7b7bd0a0490ef0",
+        "value": "cae72adb530e7250fd7b7bd0a0490ef0"
+      },
+      "end_time": "2025-12-31 17:43:13",
+      "error_count": "0",
+      "execution_tracker": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_execution_tracker/39e76adb530e7250fd7b7bd0a0490e20",
+        "value": "39e76adb530e7250fd7b7bd0a0490e20"
+      },
+      "failure_count": "1",
+      "number": "TES0001024",
+      "parent": "",
+      "pin": "false",
+      "previous_suite_result": "",
+      "rolled_up_test_canceled_count": "0",
+      "rolled_up_test_error_count": "0",
+      "rolled_up_test_failure_count": "1",
+      "rolled_up_test_skip_count": "0",
+      "rolled_up_test_success_count": "5",
+      "rolled_up_test_success_with_warnings_count": "0",
+      "run_time": "1970-01-01 00:02:39",
+      "schedule_run": "",
+      "skip_count": "0",
+      "start_time": "2025-12-31 17:40:34",
+      "status": "failure",
+      "success": "false",
+      "success_count": "5",
+      "sys_class_name": "sys_atf_test_suite_result",
+      "sys_created_by": "admin",
+      "sys_created_on": "2025-12-31 17:40:34",
+      "sys_id": "cae72adb530e7250fd7b7bd0a0490ef0",
+      "sys_mod_count": "2",
+      "sys_tags": "",
+      "sys_updated_by": "admin",
+      "sys_updated_on": "2025-12-31 17:43:13",
+      "test_suite": {
+        "link": "https://dev199856.service-now.com/api/now/table/sys_atf_test_suite/26ad0e8b534afe10fd7b7bd0a0490e79",
+        "value": "26ad0e8b534afe10fd7b7bd0a0490e79"
+      }
+    }
+  ]
+}

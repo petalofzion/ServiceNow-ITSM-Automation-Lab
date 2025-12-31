@@ -47,6 +47,8 @@ Use this sheet to log measurable proof of progress and outcomes.
 | Smoke | TES0001021 | Failed | `artifacts/atf_runs/TES0001021.json` | Failure in `artifacts/atf_runs/TES0001021_tests.json` (ACL test). |
 | Smoke | TES0001022 | Failed | `artifacts/atf_runs/TES0001022.json` | Failure in `artifacts/atf_runs/TES0001022_tests.json` (ACL test). |
 | Smoke | TES0001023 | Failed | `artifacts/atf_runs/TES0001023.json` | Failure in `artifacts/atf_runs/TES0001023_tests.json` (ACL field missing on form). |
+| Smoke | TES0001024 | Failed | `artifacts/atf_runs/TES0001024.json` | Failure in `artifacts/atf_runs/TES0001024_tests.json` (ACL field read-only). |
+| Smoke | TES0001025 | Failed | `artifacts/atf_runs/TES0001025.json` | Failure in `artifacts/atf_runs/TES0001025_tests.json` (ACL field read-only). |
 | Regression | TBD | TBD | | |
 
 ## Resume-ready highlights

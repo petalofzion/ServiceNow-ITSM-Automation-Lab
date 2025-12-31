@@ -326,76 +326,80 @@
       dict.internal_type = "string";
       dict.max_length = 160;
       dict.active = true;
+      dict.read_only = false;
+      dict.write_roles = "";
       dict.insert();
-    }
-
-    var fieldAclId = "";
-    var tableAclId = "";
-
-    var fieldAcl = new GlideRecord("sys_security_acl");
-    fieldAcl.addQuery("name", "sc_req_item.short_description");
-    fieldAcl.addQuery("operation", "write");
-    fieldAcl.addQuery("type", "field");
-    fieldAcl.query();
-    if (fieldAcl.next()) {
-      fieldAclId = fieldAcl.getUniqueValue();
     } else {
-      fieldAcl.initialize();
-      fieldAcl.name = "sc_req_item.short_description";
-      fieldAcl.operation = "write";
-      fieldAcl.type = "field";
-      fieldAcl.active = true;
-      fieldAcl.admin_overrides = true;
-      fieldAcl.description = "Plego ACL for ATF sanity checks (manual seed)";
-      fieldAclId = fieldAcl.insert();
+      dict.read_only = false;
+      dict.write_roles = "";
+      dict.update();
     }
 
-    var tableAcl = new GlideRecord("sys_security_acl");
-    tableAcl.addQuery("name", "sc_req_item");
-    tableAcl.addQuery("operation", "write");
-    tableAcl.addQuery("type", "record");
-    tableAcl.query();
-    if (tableAcl.next()) {
-      tableAclId = tableAcl.getUniqueValue();
-    } else {
-      tableAcl.initialize();
-      tableAcl.name = "sc_req_item";
-      tableAcl.operation = "write";
-      tableAcl.type = "record";
-      tableAcl.active = true;
-      tableAcl.admin_overrides = true;
-      tableAcl.description = "Plego record write ACL for ATF sanity checks (manual seed)";
-      tableAclId = tableAcl.insert();
-    }
-
-    if (tableAclId) {
-      var tableAclRecord = new GlideRecord("sys_security_acl");
-      if (tableAclRecord.get(tableAclId)) {
-        tableAclRecord.condition =
-          "current.requested_for == gs.getUserID() || gs.hasRole('x_plego_it_agent')";
-        tableAclRecord.script = "";
-        tableAclRecord.update();
+    // Helper to ensure specific ACL exists by description to avoid hijacking system ACLs
+    function ensureSpecificAcl(type, name, operation, description, condition) {
+      var acl = new GlideRecord("sys_security_acl");
+      acl.addQuery("name", name);
+      acl.addQuery("operation", operation);
+      acl.addQuery("type", type);
+      acl.addQuery("description", description);
+      acl.query();
+      if (acl.next()) {
+        acl.condition = condition;
+        acl.script = "";
+        acl.update();
+        return acl.getUniqueValue();
       }
+
+      acl.initialize();
+      acl.name = name;
+      acl.operation = operation;
+      acl.type = type;
+      acl.description = description;
+      acl.active = true;
+      acl.admin_overrides = true;
+      if (condition !== undefined) acl.condition = condition;
+      return acl.insert();
     }
 
-    var protectedAclId = "";
-    var protectedAcl = new GlideRecord("sys_security_acl");
-    protectedAcl.addQuery("name", "sc_req_item.u_plego_protected");
-    protectedAcl.addQuery("operation", "write");
-    protectedAcl.addQuery("type", "field");
-    protectedAcl.query();
-    if (protectedAcl.next()) {
-      protectedAclId = protectedAcl.getUniqueValue();
-    } else {
-      protectedAcl.initialize();
-      protectedAcl.name = "sc_req_item.u_plego_protected";
-      protectedAcl.operation = "write";
-      protectedAcl.type = "field";
-      protectedAcl.active = true;
-      protectedAcl.admin_overrides = true;
-      protectedAcl.description = "Plego protected field ACL (manual seed)";
-      protectedAclId = protectedAcl.insert();
-    }
+    var fieldAclId = ensureSpecificAcl(
+      "field",
+      "sc_req_item.short_description",
+      "write",
+      "Plego ACL for ATF sanity checks (manual seed)",
+      ""
+    );
+
+    var tableAclId = ensureSpecificAcl(
+      "record",
+      "sc_req_item",
+      "write",
+      "Plego record write ACL for ATF sanity checks (manual seed)",
+      ""
+    );
+
+    var createAclId = ensureSpecificAcl(
+      "record",
+      "sc_req_item",
+      "create",
+      "Plego record create ACL for ATF sanity checks (manual seed)",
+      ""
+    );
+
+    var protectedAclId = ensureSpecificAcl(
+      "field",
+      "sc_req_item.u_plego_protected",
+      "write",
+      "Plego protected field ACL (manual seed)",
+      ""
+    );
+
+    var protectedCreateAclId = ensureSpecificAcl(
+      "field",
+      "sc_req_item.u_plego_protected",
+      "create",
+      "Plego protected field create ACL (manual seed)",
+      ""
+    );
 
     if (!fieldAclId || !tableAclId) {
       gs.print("ACL insert failed.");
@@ -413,41 +417,26 @@
       role.query();
       role.next();
     }
+    var roleId = role.getUniqueValue();
 
-    var fieldLink = new GlideRecord("sys_security_acl_role");
-    fieldLink.addQuery("sys_security_acl", fieldAclId);
-    fieldLink.addQuery("sys_user_role", role.getUniqueValue());
-    fieldLink.query();
-    if (!fieldLink.next()) {
-      fieldLink.initialize();
-      fieldLink.sys_security_acl = fieldAclId;
-      fieldLink.sys_user_role = role.getUniqueValue();
-      fieldLink.insert();
-    }
-
-    var tableLink = new GlideRecord("sys_security_acl_role");
-    tableLink.addQuery("sys_security_acl", tableAclId);
-    tableLink.addQuery("sys_user_role", role.getUniqueValue());
-    tableLink.query();
-    if (!tableLink.next()) {
-      tableLink.initialize();
-      tableLink.sys_security_acl = tableAclId;
-      tableLink.sys_user_role = role.getUniqueValue();
-      tableLink.insert();
-    }
-
-    if (protectedAclId) {
-      var protectedLink = new GlideRecord("sys_security_acl_role");
-      protectedLink.addQuery("sys_security_acl", protectedAclId);
-      protectedLink.addQuery("sys_user_role", role.getUniqueValue());
-      protectedLink.query();
-      if (!protectedLink.next()) {
-        protectedLink.initialize();
-        protectedLink.sys_security_acl = protectedAclId;
-        protectedLink.sys_user_role = role.getUniqueValue();
-        protectedLink.insert();
+    function ensureRoleLink(aclId) {
+      var link = new GlideRecord("sys_security_acl_role");
+      link.addQuery("sys_security_acl", aclId);
+      link.addQuery("sys_user_role", roleId);
+      link.query();
+      if (!link.next()) {
+        link.initialize();
+        link.sys_security_acl = aclId;
+        link.sys_user_role = roleId;
+        link.insert();
       }
     }
+
+    ensureRoleLink(fieldAclId);
+    ensureRoleLink(tableAclId);
+    ensureRoleLink(createAclId);
+    ensureRoleLink(protectedAclId);
+    ensureRoleLink(protectedCreateAclId);
 
     gs.print("Seeded ACL + role link for sc_req_item write.");
 
@@ -510,6 +499,7 @@
     step.step_config = stepConfig;
     step.order = order;
     step.description = description;
+    step.setWorkflow(false); // Avoid BRs
     var stepId = step.insert();
     if (!stepId) {
       gs.print("Failed to create UI step: " + description);
