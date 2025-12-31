@@ -335,3 +335,11 @@ successes, and evidence references. Do not include secrets or credentials.
 - Findings: New-form UI requires create permission; added record create ACL for `sc_req_item` tied to `x_plego_it_agent`.
 - Successes: IT agent should now be allowed to open an editable new form.
 - Evidence: `scripts/servicenow/atf_seed_steps.js`.
+
+- Action: Analyze ATF run TES0001029 (Smoke Suite)
+- Status: success
+- Findings: 
+  - Verified `TES0001029` is a Suite Result containing 6 tests.
+  - All 6 tests in the suite PASSED, including "ACL Sanity Checks".
+- Successes: Smoke suite is fully green. The fix was verified against the suite execution itself.
+- Evidence: Custom MCP script analysis of `sys_atf_test_suite_result` (TES0001029) and its children.
